@@ -36,9 +36,12 @@ const BasicEnquiries = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:5000/api/enquiry", {
-        ...formData,
-      });
+      const res = await axios.post(
+        `${process.env.NEXT_PUBLIC_API_URL}/api/inquiry`,
+        {
+          ...formData,
+        }
+      );
 
       if (res.data.success) {
         toast.success("Enquiry sent successfully!");
