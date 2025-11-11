@@ -1,106 +1,2253 @@
-[00:00:06.561] Server  LOG      ✓ Ready in 4.5s
-[00:00:18.781] Server  LOG      ○ Compiling / ...
-[00:01:28.984] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:29.615] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:30.564] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:31.062] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:31.062] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:31.062] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:32.426] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:07.028] Server  LOG      ○ Compiling /packages ...
-[00:02:28.397] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:28.397] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:28.632] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:33.105] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:33.105] Browser WARN    Image with src "/_next/static/media/kanyakumari.d1952464.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:33.105] Browser WARN    Image with src "/_next/static/media/dhanuskodi.29352edb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:33.105] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:33.105] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:33.105] Browser WARN    Image with src "/_next/static/media/puducherry.ed027760.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:33.105] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:42.794] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:43.580] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:44.640] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:44.906] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:45.130] Browser WARN    Image with src "/_next/static/media/rameswaram.9d73f1e2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:45.131] Browser WARN    Image with src "/_next/static/media/sabarimalai.5021e831.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:48.245] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:02:48.245] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:04:52.157] Server  LOG      ○ Compiling /about ...
-[00:05:42.995] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:42.995] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:42.995] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:42.995] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:42.995] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:42.995] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:42.995] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:27.622] Server  LOG      ✓ Compiled in 5.8s
-[00:29:37.471] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:37.471] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:37.471] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:37.471] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:37.471] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:37.471] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:37.471] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:38.491] Server  LOG      ✓ Compiled in 2.7s
-[00:30:42.702] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:42.702] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:42.702] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:43.109] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:43.109] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:43.109] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:43.109] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:49.930] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:30:49.930] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:31:18.469] Server  LOG      ✓ Compiled in 186ms
-[00:31:28.750] Server  LOG      ✓ Compiled in 272ms
-[00:31:56.782] Server  LOG      ✓ Compiled in 135ms
-[00:32:23.332] Server  LOG      ✓ Compiled in 174ms
-[00:32:30.246] Server  LOG      ✓ Compiled in 162ms
-[00:32:40.467] Server  LOG      ✓ Compiled in 258ms
-[00:32:58.694] Server  LOG      ✓ Compiled in 176ms
-[00:33:04.577] Server  LOG      ✓ Compiled in 168ms
-[00:33:09.366] Server  LOG      ✓ Compiled in 191ms
-[00:33:40.687] Server  LOG      ✓ Compiled in 795ms
-[00:33:56.164] Server  LOG      ✓ Compiled in 635ms
-[00:34:12.392] Server  LOG      ✓ Compiled in 543ms
-[00:34:25.139] Server  LOG      ✓ Compiled in 467ms
-[00:37:54.888] Server  LOG      ✓ Compiled in 1664ms
-[00:38:07.475] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:38:07.475] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:38:51.884] Server  LOG      ✓ Compiled in 152ms
-[00:39:08.439] Server  LOG      ✓ Compiled in 113ms
-[00:40:25.200] Server  LOG      ✓ Compiled in 169ms
-[00:45:58.762] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:45:58.774] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:58:20.369] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:58:20.372] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:00:27.951] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:27.951] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:27.951] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:29.063] Browser WARN    Image with src "/_next/static/media/dhanuskodi.29352edb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:29.802] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:29.802] Browser WARN    Image with src "/_next/static/media/puducherry.ed027760.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:30.591] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:30.591] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:30.591] Browser WARN    Image with src "/_next/static/media/kanyakumari.d1952464.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:30.591] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:31.328] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:00:31.328] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:03:09.044] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:03:09.046] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:04:12.009] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:04:12.015] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:05:18.560] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:05:18.560] Browser WARN    Image with src "/_next/static/media/sabarimalai.5021e831.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:05:18.561] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:05:18.561] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:05:18.561] Browser WARN    Image with src "/_next/static/media/rameswaram.9d73f1e2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:05:20.222] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:06:20.977] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:06:20.977] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:06:21.739] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:06:21.739] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:06:21.739] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:06:21.862] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:06:21.982] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.829] Server  LOG      ✓ Ready in 4.5s
+[00:00:10.199] Server  LOG      ○ Compiling / ...
+[00:00:29.892] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:29.892] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:29.892] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:29.892] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:29.892] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:30.237] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:30.237] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:21.460] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.535] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.551] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.597] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.686] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.703] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.733] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.765] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.866] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.895] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.918] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.946] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:21.966] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.016] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.052] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.067] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.086] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.096] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.129] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.148] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.167] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.185] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.199] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.214] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.228] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.235] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.247] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.257] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.299] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.313] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.332] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.347] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:22.367] Server  LOG      ✓ Compiled in 3.2s
+[00:03:23.700] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:43.695] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:05.744] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:09.688] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/featureRoutes/FeatureRoutes'
+  3 | import React, { useEffect, useRef } from "react";
+  4 | import HeroSection from "@/components/HeroSection";
+> 5 | import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import TourPackages from "../components/traelPackages/TourPackages";
+  7 | import Feedbacks from "../components/feedback/Feedbacks";
+  8 | import gsap from "gsap";
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:12.392] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.443] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.461] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.469] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.483] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.492] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.506] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.518] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.600] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.699] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.739] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.806] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.835] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.863] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:12.881] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.031] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.151] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.214] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.233] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.267] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.294] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.418] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.515] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.606] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.626] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.640] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.655] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.675] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.709] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.727] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.779] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.799] Server  ERROR    ⨯ ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.817] Server  LOG      ✓ Compiled in 1421ms
+[00:04:14.386] Server  LOG      ✓ Compiled in 632ms
+[00:04:15.495] Browser ERROR   ./components/our Services/Services.tsx:4:1
+Module not found: Can't resolve './FeatureRoutesCard'
+  2 |
+  3 | import React, { useEffect, useRef } from "react";
+> 4 | import FeatureRoutesCard from "./FeatureRoutesCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { gsap } from "gsap";
+  6 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  7 | import { useGSAP } from "@gsap/react";
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:57.334] Server  LOG      ✓ Compiled in 3.9s
+[00:05:19.966] Server  LOG      ✓ Compiled in 499ms
+[00:05:26.222] Server  LOG      ✓ Compiled in 146ms
+[00:05:51.512] Server  LOG      ✓ Compiled in 179ms
+[00:05:59.215] Server  LOG      ✓ Compiled in 136ms
+[00:06:10.263] Server  LOG      ✓ Compiled in 107ms
+[00:06:37.670] Server  LOG      ✓ Compiled in 299ms
+[00:06:47.909] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:47.909] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:47.909] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:47.910] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:47.910] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:47.910] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:47.910] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:06.675] Server  LOG      ✓ Compiled in 100ms
+[00:07:29.357] Server  LOG      ✓ Compiled in 244ms
+[00:07:29.792] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-client] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:29.792] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-ssr] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:44.076] Server  LOG      ✓ Compiled in 115ms
+[00:07:44.714] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-client] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:44.714] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-ssr] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:08:18.561] Server  LOG      ✓ Compiled in 146ms
+[00:08:18.695] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-client] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:08:18.695] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-ssr] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:08:34.456] Server  LOG      ✓ Compiled in 205ms
+[00:08:34.693] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-client] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:08:34.693] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-ssr] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:08:42.740] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-client] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:08:42.740] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-ssr] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:08:46.689] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-client] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:08:46.689] Browser ERROR   ./components/our Services/ServicesCard.tsx:12:1
+Export FEATURE_ROUTES doesn't exist in target module
+  10 |   AccordionTrigger,
+  11 | } from "@/components/ui/accordion";
+> 12 | import { FEATURE_ROUTES } from "@/constants";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { gsap } from "gsap";
+  14 | import { ScrollTrigger } from "gsap/ScrollTrigger";
+  15 |
+
+The export FEATURE_ROUTES was not found in module [project]/constants/index.ts [app-ssr] (ecmascript).
+Did you mean to import SERVICES?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/our Services/ServicesCard.tsx [Client Component Browser]
+    ./components/our Services/Services.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/our Services/ServicesCard.tsx [Client Component SSR]
+    ./components/our Services/Services.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:09:13.420] Server  LOG      ✓ Compiled in 17.2s
+[00:09:15.703] Browser ERROR   uncaughtError: ReferenceError: FEATURE_ROUTES is not defined
+[00:09:21.632] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:21.676] Server  LOG      ✓ Compiled in 166ms
+[00:09:26.215] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:26.215] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:26.215] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:31.038] Server  LOG      ✓ Compiled in 1041ms
+[00:10:12.362] Server  LOG      ✓ Compiled in 165ms
+[00:13:08.822] Server  LOG      ✓ Compiled in 437ms
+[00:14:16.938] Server  LOG      ✓ Compiled in 128ms
+[00:14:32.324] Server  LOG      ✓ Compiled in 208ms
+[00:15:41.723] Server  LOG      ✓ Compiled in 142ms
+[00:16:02.612] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:02.612] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:02.612] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:02.613] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:02.613] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:02.613] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:02.613] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:04.774] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:04.774] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:04.979] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:05.252] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:05.252] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:05.252] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:05.252] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:35.590] Server  LOG      ✓ Compiled in 604ms
+[00:16:47.247] Server  LOG      ✓ Compiled in 149ms
+[00:16:50.146] Server  LOG      ✓ Compiled in 922ms
+[00:18:10.228] Server  LOG      ✓ Compiled in 120ms
+[00:19:29.672] Server  LOG      ✓ Compiled in 106ms
+[00:20:35.299] Server  LOG      ○ Compiling /contact ...
+[00:23:35.112] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:35.113] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:35.113] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:35.113] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:35.113] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:36.347] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:36.766] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:42.154] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:42.399] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:43.027] Browser WARN    Image with src "/_next/static/media/sabarimalai.5021e831.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:43.547] Browser WARN    Image with src "/_next/static/media/rameswaram.9d73f1e2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:44.028] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:44.380] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:44.837] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:25.719] Server  LOG      ✓ Compiled in 3.5s
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:44.045] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:02.009] Server  LOG      ✓ Compiled in 261ms
+[00:27:23.856] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.856] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.856] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.856] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.856] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/rameswaram.9d73f1e2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:23.857] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:47.645] Server  LOG      ✓ Compiled in 170ms
+[00:28:53.909] Server  LOG      ✓ Compiled in 1770ms
+[00:29:20.102] Server  LOG      ✓ Compiled in 292ms
+[00:31:13.815] Server  LOG      ✓ Compiled in 244ms
+[00:31:54.189] Server  LOG      ✓ Compiled in 134ms
+[00:32:06.121] Server  LOG      ✓ Compiled in 109ms
+[00:32:27.583] Server  LOG      ✓ Compiled in 154ms
+[00:33:52.305] Server  LOG      ✓ Compiled in 1714ms
+[00:34:23.647] Server  LOG      ✓ Compiled in 743ms
+[00:34:33.805] Server  LOG      ✓ Compiled in 153ms
+[00:34:36.225] Server  LOG      ✓ Compiled in 312ms
+[00:34:43.613] Server  LOG      ✓ Compiled in 138ms
+[00:35:31.582] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:31.583] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:32.058] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:33.267] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:33.267] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:33.267] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:33.267] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:59.722] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:59.722] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:00.415] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:00.415] Browser WARN    Image with src "/_next/static/media/kanyakumari.d1952464.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:00.415] Browser WARN    Image with src "/_next/static/media/dhanuskodi.29352edb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:01.362] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:01.362] Browser WARN    Image with src "/_next/static/media/puducherry.ed027760.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:01.362] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:02.137] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:02.137] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:02.545] Browser WARN    Image with src "/_next/static/media/sabarimalai.5021e831.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:02.545] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:02.545] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:02.545] Browser WARN    Image with src "/_next/static/media/rameswaram.9d73f1e2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:02.545] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:02.730] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:28.539] Server  LOG      ✓ Compiled in 198ms
+[00:37:45.414] Server  LOG      ✓ Compiled in 210ms
+[00:38:04.173] Server  LOG      ✓ Compiled in 126ms
+[00:38:27.062] Server  LOG      ✓ Compiled in 344ms
+[00:38:33.223] Server  LOG      ✓ Compiled in 92ms
+[00:38:45.738] Server  LOG      ✓ Compiled in 107ms
+[00:39:09.985] Server  LOG      ✓ Compiled in 314ms
+[00:39:15.311] Server  LOG      ✓ Compiled in 521ms
+[00:39:43.202] Server  LOG      ✓ Compiled in 136ms
+[00:41:01.932] Server  LOG      ✓ Compiled in 313ms
+[00:41:10.961] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:41:10.962] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:41:10.962] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:41:10.962] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:41:46.229] Server  LOG      ✓ Compiled in 663ms
+[00:42:01.225] Server  LOG      ✓ Compiled in 904ms
+[00:42:12.597] Server  LOG      ✓ Compiled in 132ms
+[00:42:26.697] Server  LOG      ✓ Compiled in 231ms
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/rameswaram.9d73f1e2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:07.802] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:40.386] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:40.388] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:40.388] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:40.699] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:41.648] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:42.196] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:42.196] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:46.873] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:46.873] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:46.873] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:46.873] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:46.873] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:46.873] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:46.873] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/dhanuskodi.29352edb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/kanyakumari.d1952464.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/puducherry.ed027760.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/sabarimalai.5021e831.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/rameswaram.9d73f1e2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:07.934] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:47:49.709] Server  LOG      ✓ Compiled in 1117ms
+[00:48:04.599] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:04.600] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:04.600] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:04.692] Browser WARN    Image with src "/_next/static/media/hills.0b2b2a84.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:04.955] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:04.956] Browser WARN    Image with src "/_next/static/media/costal.9b8dcec6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:05.061] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:19.762] Server  LOG      ✓ Compiled in 153ms
+[00:48:24.753] Server  LOG      ✓ Compiled in 428ms
+[00:50:17.045] Server  LOG      ✓ Compiled in 1020ms
+[00:51:23.648] Server  LOG      ✓ Compiled in 272ms
+[00:51:33.361] Server  LOG      ✓ Compiled in 651ms
+[00:52:00.599] Server  LOG      ✓ Compiled in 1043ms
+[00:53:28.669] Browser WARN    Image with src "/_next/static/media/ooty.091953eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:28.874] Browser WARN    Image with src "/_next/static/media/kodaikanal.21ef036f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:29.078] Browser WARN    Image with src "/_next/static/media/munnar.f46fa890.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:29.078] Browser WARN    Image with src "/_next/static/media/yercard.024a1e34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:29.222] Browser WARN    Image with src "/_next/static/media/coonoor.7a5d5901.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.783] Browser WARN    Image with src "/_next/static/media/dhanuskodi.29352edb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.202] Browser WARN    Image with src "/_next/static/media/valparai.db0b05c0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.203] Browser WARN    Image with src "/_next/static/media/kanyakumari.d1952464.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.203] Browser WARN    Image with src "/_next/static/media/goa.a33e1959.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.203] Browser WARN    Image with src "/_next/static/media/puducherry.ed027760.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.203] Browser WARN    Image with src "/_next/static/media/varkala.84bb3923.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.203] Browser WARN    Image with src "/_next/static/media/mahabalipuram.32bcf512.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.203] Browser WARN    Image with src "/_next/static/media/kotagiri.dcfbe00f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.203] Browser WARN    Image with src "/_next/static/media/tharangambadi.b55b8a42.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:54.537] Browser WARN    Image with src "/_next/static/media/rameswaram.9d73f1e2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:54.537] Browser WARN    Image with src "/_next/static/media/arunachalam.05aadfc0.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:54.537] Browser WARN    Image with src "/_next/static/media/palani.e80d0db3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:54.537] Browser WARN    Image with src "/_next/static/media/Srirangam.bc2d57bf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:54.537] Browser WARN    Image with src "/_next/static/media/sabarimalai.5021e831.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:54.537] Browser WARN    Image with src "/_next/static/media/thiruchendur.875cd62b.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:54.882] Browser WARN    Image with src "/_next/static/media/meenakshi.f873d9d6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

@@ -63,7 +63,6 @@ const Packages = () => {
         start: "top top",
         end: "bottom top",
         pin: true,
-        pinSpacing: true,
         scrub: true,
       });
 

@@ -236,7 +236,7 @@ const About = ()=>{
                     start: "top top",
                     end: "bottom top",
                     pin: true,
-                    pinSpacing: false,
+                    pinSpacing: true,
                     scrub: true
                 });
                 // Animate scale when next card scrolls into view

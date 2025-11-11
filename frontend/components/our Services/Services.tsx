@@ -1,14 +1,14 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import FeatureRoutesCard from "./FeatureRoutesCard";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import ServicesCard from "./ServicesCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const FeatureRoutes = () => {
+const Services = () => {
   const titleRef = useRef<HTMLHeadingElement | null>(null);
   const subtitleRef = useRef<HTMLParagraphElement | null>(null);
 
@@ -47,17 +47,17 @@ const FeatureRoutes = () => {
       {/* Header */}
       <div className="text-center mb-3">
         <h1 ref={titleRef} className="text-3xl font-bold">
-          Feature Routes
+          Our Services
         </h1>
         <p ref={subtitleRef} className="text-sm text-gray-600 max-w-lg mx-auto">
-          Discover our popular destinations and book your next adventure.
+          Discover our Services and book your next adventure with BSK Travels.
         </p>
       </div>
 
       {/* Cards */}
-      <FeatureRoutesCard />
+      <ServicesCard />
     </div>
   );
 };
 
-export default FeatureRoutes;
+export default Services;

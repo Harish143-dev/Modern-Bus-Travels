@@ -132,7 +132,7 @@ const PackageCategories: React.FC<PackageCategoriesProps> = ({
       {/* Left Scroll Button */}
       <button
         onClick={() => handleScroll("left")}
-        className="hidden md:block lg:block absolute left-2 top-1/2 -translate-y-1/2 z-30 w-10 p-2 rounded-full bg-background/50 hover:bg-background/80 transition"
+        className="absolute left-2 top-1/2 -translate-y-1/2 z-30 w-10 p-2 rounded-full bg-background/50 hover:bg-background/80 transition"
       >
         <FontAwesomeIcon icon={faChevronLeft} />
       </button>
@@ -140,7 +140,7 @@ const PackageCategories: React.FC<PackageCategoriesProps> = ({
       {/* Right Scroll Button */}
       <button
         onClick={() => handleScroll("right")}
-        className="hidden md:block lg:block absolute right-2 top-1/2 -translate-y-1/2 z-30 w-10 p-2 rounded-full bg-background/50 hover:bg-background/80 transition"
+        className="absolute right-2 top-1/2 -translate-y-1/2 z-30 w-10 p-2 rounded-full bg-background/50 hover:bg-background/80 transition"
       >
         <FontAwesomeIcon icon={faChevronRight} />
       </button>
@@ -148,7 +148,7 @@ const PackageCategories: React.FC<PackageCategoriesProps> = ({
       {/* Scrollable Container */}
       <div
         ref={scrollRef}
-        className=" flex flex-col md:flex-row lg:flex-row items-center justify-center overflow-x-auto p-5 rounded-2xl scroll-smooth gap-6 pb-4 relative z-20 scrollbar-hide"
+        className="p-5 flex w-full overflow-x-auto rounded-2xl scroll-smooth gap-6 pb-4 relative z-20 scrollbar-hide"
       >
         {pkgCategory.subPackages?.map((subPkg) => (
           <PackageCard key={subPkg.id} subPkg={subPkg} />

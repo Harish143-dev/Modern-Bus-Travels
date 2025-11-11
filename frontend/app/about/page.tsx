@@ -91,7 +91,7 @@ const About = () => {
           start: "top top",
           end: "bottom top",
           pin: true,
-          pinSpacing: false, // keep layout spacing
+          pinSpacing: true, // keep layout spacing
           scrub: true,
         });
 

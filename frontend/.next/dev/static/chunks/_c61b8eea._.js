@@ -664,12 +664,12 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 __turbopack_context__.s([
     "BUSES",
     ()=>BUSES,
-    "FEATURE_ROUTES",
-    ()=>FEATURE_ROUTES,
     "NAV_LINKS",
     ()=>NAV_LINKS,
     "PACKAGES",
     ()=>PACKAGES,
+    "SERVICES",
+    ()=>SERVICES,
     "TOUR_PACKAGES",
     ()=>TOUR_PACKAGES,
     "WHY_CHOOSE",
@@ -754,27 +754,24 @@ const NAV_LINKS = [
         key: "contact"
     }
 ];
-const FEATURE_ROUTES = [
+const SERVICES = [
     {
         id: 1,
         img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-        place: "Ramnad to Munnar",
-        description: "Explore sprawling tea gardens, serene waterfalls, and the breathtaking Eravikulam National Park.",
-        price: "20000"
+        title: "Tours and Trips",
+        description: "Experience the joy of exploration with BSK Travels.Journey with comfort and style. BSK Travels ensures every tour is packed with adventure, fun, and unforgettable memories."
     },
     {
         id: 2,
         img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-        place: "Ramnad to Ooty",
-        description: "Wander through the scenic Nilgiri Hills, enjoy boat rides on Ooty Lake, and stroll in the colorful botanical gardens.",
-        price: "20000"
+        title: "Corporates",
+        description: "Elevate your business travel experience with BSK Travels. Our efficient corporate transport solutions keep you on schedule and stress-free."
     },
     {
         id: 3,
         img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kodaikanal$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kodaikanal$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-        place: "Ramnad to Kodaikanal",
-        description: "Admire the tranquil beauty of Kodai Lake, Coaker’s Walk, and lush forest trails that make this hill station a perfect getaway.",
-        price: "20000"
+        title: "Events",
+        description: "BSK Travels ensures your events run smoothly with reliable and spacious transport options. Let us handle the logistics while you enjoy the moment."
     }
 ];
 const TOUR_PACKAGES = [

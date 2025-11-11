@@ -48,13 +48,13 @@ const PackageCard: React.FC<PackageCardProps> = ({ subPkg }) => {
     <div
       ref={cardRef}
       className="
-        flex-shrink-0 max-w-sm
+        flex-shrink-0 w-xs md:w-sm lg:w-md 
         rounded-2xl overflow-hidden shadow-lg bg-card
         hover:shadow-xl transition-all duration-300 hover:-translate-y-1
       "
     >
       {/* Image */}
-      <div className="relative h-42 w-full">
+      <div className="relative h-62 w-full">
         <Image
           src={subPkg.image}
           alt={subPkg.title}

@@ -175,6 +175,8 @@
 
 @layer theme {
   :root, :host {
+    --color-red-300: #ffa3a3;
+    --color-amber-50: #fffbeb;
     --color-yellow-500: #edb200;
     --color-yellow-600: #cd8900;
     --color-blue-500: #3080ff;
@@ -188,6 +190,7 @@
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
+    --container-xs: 20rem;
     --container-sm: 24rem;
     --container-md: 28rem;
     --container-lg: 32rem;
@@ -229,6 +232,8 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-red-300: lab(76.5514% 36.4219 15.5335);
+      --color-amber-50: lab(98.6252% -.635982 8.42309);
       --color-yellow-500: lab(76.3898% 14.5258 98.4589);
       --color-yellow-600: lab(62.7799% 22.4198 86.1544);
       --color-blue-500: lab(54.1736% 13.3368 -74.6839);
@@ -799,6 +804,10 @@
     height: calc(var(--spacing) * 52);
   }
 
+  .h-62 {
+    height: calc(var(--spacing) * 62);
+  }
+
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
@@ -835,6 +844,10 @@
     width: 100%;
   }
 
+  .w-xs {
+    width: var(--container-xs);
+  }
+
   .max-w-2xl {
     max-width: var(--container-2xl);
   }
@@ -857,6 +870,10 @@
 
   .max-w-sm {
     max-width: var(--container-sm);
+  }
+
+  .max-w-xs {
+    max-width: var(--container-xs);
   }
 
   .flex-1 {
@@ -1018,6 +1035,10 @@
     justify-self: flex-end;
   }
 
+  .overflow-auto {
+    overflow: auto;
+  }
+
   .overflow-hidden {
     overflow: hidden;
   }
@@ -1093,6 +1114,10 @@
 
   .bg-accent {
     background-color: var(--accent);
+  }
+
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
   }
 
   .bg-background {
@@ -1175,6 +1200,10 @@
     .bg-primary\/40 {
       background-color: color-mix(in oklab, var(--primary) 40%, transparent);
     }
+  }
+
+  .bg-red-300 {
+    background-color: var(--color-red-300);
   }
 
   .bg-secondary {
@@ -2078,8 +2107,20 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:h-52 {
+      height: calc(var(--spacing) * 52);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:w-\[80\%\] {
       width: 80%;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:w-sm {
+      width: var(--container-sm);
     }
   }
 
@@ -2144,6 +2185,18 @@
   @media (min-width: 64rem) {
     .lg\:hidden {
       display: none;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:h-42 {
+      height: calc(var(--spacing) * 42);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:w-md {
+      width: var(--container-md);
     }
   }
 

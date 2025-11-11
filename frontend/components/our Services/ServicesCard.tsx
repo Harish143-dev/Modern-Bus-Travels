@@ -9,13 +9,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { FEATURE_ROUTES } from "@/constants";
+import { SERVICES } from "@/constants";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const FeatureRoutesCard = () => {
+const ServicesCard = () => {
   const cardsRef = useRef<HTMLDivElement[]>([]);
 
   useEffect(() => {
@@ -48,9 +48,9 @@ const FeatureRoutesCard = () => {
 
   return (
     <div className="flex justify-between items-center max-md:flex-col max-md:justify-center gap-6 px-5 pt-8 w-full">
-      {FEATURE_ROUTES.map((route, i) => (
+      {SERVICES.map((service, i) => (
         <div
-          key={route.id}
+          key={service.id}
           ref={(el) => {
             if (el) cardsRef.current[i] = el;
           }}
@@ -59,8 +59,8 @@ const FeatureRoutesCard = () => {
           {/* Image */}
           <div className="relative w-full h-52">
             <Image
-              src={route.img}
-              alt={route.place}
+              src={service.img}
+              alt={service.title}
               fill
               className="object-cover transition-transform duration-500 hover:scale-110"
             />
@@ -69,22 +69,12 @@ const FeatureRoutesCard = () => {
           {/* Card content */}
           <div className="p-4 flex-1 flex flex-col justify-between">
             <div>
-              <h1 className="text-lg font-semibold">{route.place}</h1>
-              <p className="text-sm">{`From ₹${route.price}`}</p>
+              <h1 className="text-lg font-semibold">{service.title}</h1>
+              <p className="text-sm text-muted-foreground font-semibold">
+                {service.description}
+              </p>
+              <p></p>
             </div>
-
-            <Accordion type="single" collapsible className="mt-1">
-              <AccordionItem value={`details-${route.id}`}>
-                <AccordionTrigger>
-                  <p className="w-full cursor-pointer">View</p>
-                </AccordionTrigger>
-
-                <AccordionContent className="text-gray-700 mt-2">
-                  <p className="mb-2">{route.description}</p>
-                  <Button className="w-full">Enquire</Button>
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
           </div>
         </div>
       ))}
@@ -92,4 +82,4 @@ const FeatureRoutesCard = () => {
   );
 };
 
-export default FeatureRoutesCard;
+export default ServicesCard;

@@ -2,13 +2,13 @@
 
 import React, { useEffect, useRef } from "react";
 import HeroSection from "@/components/HeroSection";
-import FeatureRoutes from "../components/featureRoutes/FeatureRoutes";
 import TourPackages from "../components/traelPackages/TourPackages";
 import Feedbacks from "../components/feedback/Feedbacks";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ScrollUpButton from "@/components/ScrollUpButton";
 import { useGSAP } from "@gsap/react";
+import Services from "../components/our Services/Services";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -70,7 +70,7 @@ const StickySections = () => {
         <HeroSection />
       </div>
       <div className="sticky-section section bg-background">
-        <FeatureRoutes />
+        <Services />
       </div>
       <div className="sticky-section section bg-card">
         <TourPackages />

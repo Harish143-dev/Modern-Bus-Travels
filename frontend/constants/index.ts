@@ -30,7 +30,7 @@ import palani from "../assets/tourPackage/palani.jpg";
 import meenakshi from "../assets/tourPackage/meenakshi.jpg";
 import arunachalam from "../assets/tourPackage/arunachalam.jpg";
 
-// Buses Images 
+// Buses Images
 import eicher1 from "@assets/busesImg/eicher-1.jpg";
 import eicher2 from "@assets/busesImg/eicher-2.jpg";
 import eicher3 from "@assets/busesImg/eicher-3.jpg";
@@ -67,10 +67,10 @@ interface Bus {
 }
 
 interface Choose {
-  id:number;
-  icon:IconDefinition;
+  id: number;
+  icon: IconDefinition;
   title: string;
-  description:string;
+  description: string;
 }
 
 export const NAV_LINKS = [
@@ -81,30 +81,27 @@ export const NAV_LINKS = [
   { title: "Contact", href: "/contact", key: "contact" },
 ];
 
-export const FEATURE_ROUTES = [
+export const SERVICES = [
   {
     id: 1,
     img: munnar,
-    place: "Ramnad to Munnar",
+    title: "Tours and Trips",
     description:
-      "Explore sprawling tea gardens, serene waterfalls, and the breathtaking Eravikulam National Park.",
-    price: "20000",
+      "Experience the joy of exploration with BSK Travels.Journey with comfort and style. BSK Travels ensures every tour is packed with adventure, fun, and unforgettable memories.",
   },
   {
     id: 2,
     img: ooty,
-    place: "Ramnad to Ooty",
+    title: "Corporates",
     description:
-      "Wander through the scenic Nilgiri Hills, enjoy boat rides on Ooty Lake, and stroll in the colorful botanical gardens.",
-    price: "20000",
+      "Elevate your business travel experience with BSK Travels. Our efficient corporate transport solutions keep you on schedule and stress-free.",
   },
   {
     id: 3,
     img: kodaikanal,
-    place: "Ramnad to Kodaikanal",
+    title: "Events",
     description:
-      "Admire the tranquil beauty of Kodai Lake, Coaker’s Walk, and lush forest trails that make this hill station a perfect getaway.",
-    price: "20000",
+      "BSK Travels ensures your events run smoothly with reliable and spacious transport options. Let us handle the logistics while you enjoy the moment.",
   },
 ];
 
