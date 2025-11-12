@@ -27,7 +27,7 @@ const Footer = () => {
       scrollTrigger: {
         trigger: footerRef.current,
         start: "top 90%",
-        scrub:true,
+        scrub: true,
       },
     });
   }, []);
