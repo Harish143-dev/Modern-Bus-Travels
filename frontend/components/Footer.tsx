@@ -4,26 +4,19 @@ import React, { useEffect, useRef } from "react";
 import { NAV_LINKS } from "@/constants";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faInstagram,
-  faXTwitter,
-} from "@fortawesome/free-brands-svg-icons";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import {
-  faEnvelope,
-  faHeadphonesSimple,
-} from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";
 import FollowIcons from "./FollowIcons";
+import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
   const footerRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
+  useGSAP(() => {
     if (!footerRef.current) return;
 
     gsap.from(footerRef.current, {
@@ -40,7 +33,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer
+    <div
       ref={footerRef}
       className="bg-card text-card-foreground border-t px-6 pt-12 pb-6"
     >
@@ -82,7 +75,7 @@ const Footer = () => {
           <p className="text-sm opacity-90">
             <span className="pr-2">
               <FontAwesomeIcon icon={faPhone} />
-            </span>{" "}
+            </span>
             +91 8056503191
           </p>
         </div>
@@ -99,7 +92,7 @@ const Footer = () => {
         © {new Date().getFullYear()}{" "}
         <span className="font-semibold">BSK Travels</span>. All Rights Reserved.
       </div>
-    </footer>
+    </div>
   );
 };
 
