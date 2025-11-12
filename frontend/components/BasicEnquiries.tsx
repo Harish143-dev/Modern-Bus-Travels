@@ -24,6 +24,7 @@ const BasicEnquiries = () => {
     to: "",
     date: "",
   });
+  console.log(process.env.NEXT_PUBLIC_API_URL);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -37,7 +38,7 @@ const BasicEnquiries = () => {
 
     try {
       const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/inquiry`,
+        `${process.env.NEXT_PUBLIC_API_URL}/api/enquiry`,
         {
           ...formData,
         }

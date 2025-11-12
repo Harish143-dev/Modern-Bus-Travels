@@ -48,7 +48,7 @@ const FormDailog: React.FC<FormDialogProps> = ({ subPkg }) => {
     setLoading(true);
 
     try {
-      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/inquiry`, {
+      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/enquiry`, {
         ...formData,
         packageName: subPkg.title,
       });
