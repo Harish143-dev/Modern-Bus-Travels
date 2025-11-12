@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import { FEATURE_ROUTES } from "@/constants";
+import { SERVICES } from "@/constants";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -57,14 +57,14 @@ const StickCards = () => {
 
   return (
     <div className="relative w-full h-full" ref={container}>
-      {FEATURE_ROUTES.map((route) => (
+      {SERVICES.map((route) => (
         <div
           key={route.id}
           className="sticky-card relative w-full bg-gray-500 h-screen flex p-5 gap-3 will-change-transform"
         >
           <div className="flex-4 pt-2">
             <div className="flex w-[75%] flex-col gap-2">
-              <h1 className="text-2xl font-bold">{route.place}</h1>
+              <h1 className="text-2xl font-bold">{route.title}</h1>
               <p>{route.description}</p>
             </div>
           </div>
