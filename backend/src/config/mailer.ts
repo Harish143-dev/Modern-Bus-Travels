@@ -5,10 +5,12 @@ import { InquiryInterface } from "../types/inquiries";
 dotenv.config();
 
 const transporter = nodemailer.createTransport({
-  service: "gmail",
+  host: "smtp-relay.brevo.com",
+  port: 587, // Brevo recommends port 587
+  secure: false, // true for port 465, false for 587
   auth: {
-    user: process.env.ADMIN_EMAIL,
-    pass: process.env.ADMIN_PASS,
+    user: process.env.BREVO_EMAIL,
+    pass: process.env.BREVO_KEY,
   },
 });
 
