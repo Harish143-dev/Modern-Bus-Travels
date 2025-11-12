@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { NAV_LINKS } from "@/constants";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,7 +27,7 @@ const Footer = () => {
       scrollTrigger: {
         trigger: footerRef.current,
         start: "top 90%",
-        toggleActions: "play none none reverse",
+        scrub:true,
       },
     });
   }, []);
