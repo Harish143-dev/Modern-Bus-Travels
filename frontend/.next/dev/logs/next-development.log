@@ -131,3 +131,4 @@
 [00:06:36.695] Browser LOG     [2;38;2;124;124;124m%s[0m http://localhost:5000
 [00:06:40.531] Browser LOG     http://localhost:5000
 [00:06:40.531] Browser LOG     [2;38;2;124;124;124m%s[0m http://localhost:5000
+[00:07:17.299] Server  LOG      ✓ Compiled in 1597ms

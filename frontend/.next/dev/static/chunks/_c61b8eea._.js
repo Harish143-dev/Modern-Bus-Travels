@@ -1493,7 +1493,6 @@ const BasicEnquiries = ()=>{
         to: "",
         date: ""
     });
-    console.log(("TURBOPACK compile-time value", "http://localhost:5000"));
     const handleChange = (e)=>{
         setFormData({
             ...formData,
@@ -1540,12 +1539,12 @@ const BasicEnquiries = ()=>{
                     children: "Enquire Now"
                 }, void 0, false, {
                     fileName: "[project]/components/BasicEnquiries.tsx",
-                    lineNumber: 73,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/components/BasicEnquiries.tsx",
-                lineNumber: 72,
+                lineNumber: 70,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DialogContent"], {
@@ -1556,12 +1555,12 @@ const BasicEnquiries = ()=>{
                             children: "Plese kindly fill the form"
                         }, void 0, false, {
                             fileName: "[project]/components/BasicEnquiries.tsx",
-                            lineNumber: 78,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/BasicEnquiries.tsx",
-                        lineNumber: 77,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1581,7 +1580,7 @@ const BasicEnquiries = ()=>{
                                         className: "w-full p-2 border rounded-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BasicEnquiries.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1594,13 +1593,13 @@ const BasicEnquiries = ()=>{
                                         className: "w-full p-2 border rounded-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BasicEnquiries.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BasicEnquiries.tsx",
-                                lineNumber: 82,
+                                lineNumber: 80,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1615,7 +1614,7 @@ const BasicEnquiries = ()=>{
                                         className: "w-full p-2 border rounded-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BasicEnquiries.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 101,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1627,13 +1626,13 @@ const BasicEnquiries = ()=>{
                                         placeholder: "Preffered Date"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BasicEnquiries.tsx",
-                                        lineNumber: 111,
+                                        lineNumber: 109,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BasicEnquiries.tsx",
-                                lineNumber: 102,
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1648,7 +1647,7 @@ const BasicEnquiries = ()=>{
                                         className: "w-full p-2 border rounded-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BasicEnquiries.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 119,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1660,13 +1659,13 @@ const BasicEnquiries = ()=>{
                                         placeholder: "enter your Destination"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BasicEnquiries.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 127,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BasicEnquiries.tsx",
-                                lineNumber: 120,
+                                lineNumber: 118,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1678,7 +1677,7 @@ const BasicEnquiries = ()=>{
                                 className: "w-full p-3 border rounded-lg"
                             }, void 0, false, {
                                 fileName: "[project]/components/BasicEnquiries.tsx",
-                                lineNumber: 138,
+                                lineNumber: 136,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1688,25 +1687,25 @@ const BasicEnquiries = ()=>{
                                 children: loading ? "Sending..." : "Send Enquiry"
                             }, void 0, false, {
                                 fileName: "[project]/components/BasicEnquiries.tsx",
-                                lineNumber: 146,
+                                lineNumber: 144,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/BasicEnquiries.tsx",
-                        lineNumber: 81,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/BasicEnquiries.tsx",
-                lineNumber: 76,
+                lineNumber: 74,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/BasicEnquiries.tsx",
-        lineNumber: 71,
+        lineNumber: 69,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
