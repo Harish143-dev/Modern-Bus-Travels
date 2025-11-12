@@ -1,23 +1,13 @@
-import nodemailer from "nodemailer";
+import axios from "axios";
 import dotenv from "dotenv";
 import { InquiryInterface } from "../types/inquiries";
 
 dotenv.config();
 
-const transporter = nodemailer.createTransport({
-  host: "smtp-relay.brevo.com",
-  port: 587, // Brevo recommends port 587
-  secure: false, // true for port 465, false for 587
-  auth: {
-    user: process.env.BREVO_LOGIN,
-    pass: process.env.BREVO_KEY,
-  },
-});
-
 export const sendMail = async (data: InquiryInterface): Promise<void> => {
   const { name, email, phone, message, packageName, from, to, date } = data;
 
-  // 🧠 Build HTML conditionally (no false/undefined in output)
+  // Build HTML content dynamically
   let html = `
     <h3>New Travel Inquiry</h3>
     <p><b>Name:</b> ${name}</p>
@@ -25,30 +15,36 @@ export const sendMail = async (data: InquiryInterface): Promise<void> => {
     <p><b>Phone:</b> ${phone || "Not provided"}</p>
   `;
 
-  if (packageName) {
-    html += `<p><b>Package:</b> ${packageName}</p>`;
-  }
-
-  if (date) {
-    html += `<p><b>Date:</b> ${date}</p>`;
-  }
-
-  if (from) {
-    html += `<p><b>From:</b> ${from}</p>`;
-  }
-
-  if (to) {
-    html += `<p><b>To:</b> ${to}</p>`;
-  }
-
+  if (packageName) html += `<p><b>Package:</b> ${packageName}</p>`;
+  if (date) html += `<p><b>Date:</b> ${date}</p>`;
+  if (from) html += `<p><b>From:</b> ${from}</p>`;
+  if (to) html += `<p><b>To:</b> ${to}</p>`;
   html += `<p><b>Message:</b> ${message}</p>`;
 
-  const mailOptions = {
-    from: `"BSK Travels" <${process.env.BREVO_EMAIL}>`,
-    to: process.env.ADMIN_EMAIL, // or multiple emails separated by commas
+  const payload = {
+    sender: { email: process.env.BREVO_EMAIL, name: "BSK Travels" },
+    to: [{ email: process.env.ADMIN_EMAIL }],
     subject: `New Inquiry from ${name}`,
-    html,
+    htmlContent: html,
   };
 
-  await transporter.sendMail(mailOptions);
+  try {
+    const response = await axios.post(
+      "https://api.brevo.com/v3/smtp/email",
+      payload,
+      {
+        headers: {
+          "api-key": process.env.BREVO_KEY,
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
+    console.log(`✅ Email sent successfully for inquiry from ${name}`);
+  } catch (err: any) {
+    console.error(
+      "❌ Error sending inquiry via Brevo API:",
+      err.response?.data || err.message
+    );
+  }
 };
