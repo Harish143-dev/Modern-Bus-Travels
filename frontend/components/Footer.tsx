@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { NAV_LINKS } from "@/constants";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,22 +14,27 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
-  const footerRef = useRef<HTMLDivElement | null>(null);
+  const footerRef = useRef<HTMLDivElement>(null);
 
-  useGSAP(() => {
-    if (!footerRef.current) return;
+  useEffect(() => {
+    const footer = footerRef.current;
+    if (!footer) return;
 
-    gsap.from(footerRef.current, {
-      opacity: 0,
-      y: 40,
-      duration: 1,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: footerRef.current,
-        start: "top 90%",
-        scrub: true,
-      },
-    });
+    const ctx = gsap.context(() => {
+      gsap.from(footer, {
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: footer,
+          start: "top 90%",
+          toggleActions: "play none none none", // safer than scrub
+        },
+      });
+    }, footer);
+
+    return () => ctx.revert(); // clean up when unmounted
   }, []);
 
   return (

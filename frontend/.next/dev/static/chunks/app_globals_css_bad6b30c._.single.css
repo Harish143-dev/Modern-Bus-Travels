@@ -1981,6 +1981,24 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:h-46 {
+      height: calc(var(--spacing) * 46);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:h-48 {
+      height: calc(var(--spacing) * 48);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:h-52 {
+      height: calc(var(--spacing) * 52);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:w-\[80\%\] {
       width: 80%;
     }
@@ -2053,6 +2071,24 @@
   @media (min-width: 64rem) {
     .lg\:hidden {
       display: none;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:h-42 {
+      height: calc(var(--spacing) * 42);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:h-46 {
+      height: calc(var(--spacing) * 46);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:h-48 {
+      height: calc(var(--spacing) * 48);
     }
   }
 

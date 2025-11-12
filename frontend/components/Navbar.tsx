@@ -68,7 +68,7 @@ const Navbar = () => {
     <nav className="fixed flex items-center justify-center z-50 w-full p-2">
       <div
         ref={navRef}
-        className="w-full md:w-[80%] backdrop-blur-sm bg-background/20 backdrop-brightness-95 text-card-foreground shadow-2xl rounded-xl"
+        className="w-full md:w-[80%] backdrop-blur-sm bg-background/20 backdrop-brightness-95 text-card-foreground shadow-xl rounded-xl"
       >
         <div className="flex justify-between items-center px-6 lg:px-10 py-3">
           <Link href={"/"} className="text-3xl font-bold px-2 ">

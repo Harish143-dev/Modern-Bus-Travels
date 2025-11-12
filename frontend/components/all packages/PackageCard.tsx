@@ -54,7 +54,7 @@ const PackageCard: React.FC<PackageCardProps> = ({ subPkg }) => {
       "
     >
       {/* Image */}
-      <div className="relative h-62 w-full">
+      <div className="relative h-62 md:h-46 lg:h-46 w-full">
         <Image
           src={subPkg.image}
           alt={subPkg.title}

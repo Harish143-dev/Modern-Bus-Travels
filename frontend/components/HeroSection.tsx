@@ -6,6 +6,7 @@ import { gsap } from "gsap";
 import ScrollDownIcons from "./ScrollDownIcons";
 import { useGSAP } from "@gsap/react";
 import { useTheme } from "next-themes";
+import BasicEnquiries from "./BasicEnquiries";
 
 const HeroSection = () => {
   const { resolvedTheme } = useTheme();
@@ -85,9 +86,7 @@ const HeroSection = () => {
           crafted for memories that last a lifetime.
         </p>
 
-        <Button className="mt-4 px-8 py-3 text-base font-semibold shadow-lg">
-          Enquire Now
-        </Button>
+        <BasicEnquiries />
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent z-10"></div>
       <ScrollDownIcons />
