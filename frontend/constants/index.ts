@@ -1,6 +1,6 @@
 "use client";
 import Chennai_central from "../assets/featureRoutesImg/Chennai_Central.jpg";
-// Hills Stations Images
+// Hills Stations imgs
 import munnar from "../assets/tourPackage/munnar.jpg";
 import ooty from "../assets/tourPackage/ooty.jpg";
 import kodaikanal from "../assets/tourPackage/kodaikanal.jpg";
@@ -12,7 +12,7 @@ import coonoor from "../assets/tourPackage/coonoor.jpg";
 import valparai from "../assets/tourPackage/valparai.jpg";
 import kotagiri from "../assets/tourPackage/kotagiri.jpg";
 
-// costal Images
+// costal imgs
 import dhanuskodi from "../assets/tourPackage/dhanuskodi.jpg";
 import goa from "../assets/tourPackage/goa.jpeg";
 import kanyakumari from "../assets/tourPackage/kanyakumari.jpg";
@@ -21,7 +21,7 @@ import puducherry from "../assets/tourPackage/puducherry.jpeg";
 import varkala from "../assets/tourPackage/varkala.jpg";
 import Tharangambadi from "../assets/tourPackage/tharangambadi.jpeg";
 
-// Temple Images
+// Temple imgs
 import thiruchendur from "../assets/tourPackage/thiruchendur.jpg";
 import Srirangam from "../assets/tourPackage/Srirangam.jpg";
 import sabarimalai from "../assets/tourPackage/sabarimalai.jpg";
@@ -30,7 +30,7 @@ import palani from "../assets/tourPackage/palani.jpg";
 import meenakshi from "../assets/tourPackage/meenakshi.jpg";
 import arunachalam from "../assets/tourPackage/arunachalam.jpg";
 
-// Buses Images
+// Buses imgs
 import eicher1 from "@assets/busesImg/eicher-1.jpg";
 import eicher2 from "@assets/busesImg/eicher-2.jpg";
 import eicher3 from "@assets/busesImg/eicher-3.jpg";
@@ -51,6 +51,7 @@ import {
   faBox,
 } from "@fortawesome/free-solid-svg-icons";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { StaticImageData } from "next/image";
 
 interface BusFeature {
   icon: IconDefinition;
@@ -73,6 +74,13 @@ interface Choose {
   description: string;
 }
 
+interface ServicesTypes {
+  id: number;
+  img: StaticImageData;
+  title: string;
+  description: string;
+}
+
 export const NAV_LINKS = [
   { title: "Home", href: "/", key: "home" },
   { title: "Buses", href: "/buses", key: "buses" },
@@ -81,7 +89,7 @@ export const NAV_LINKS = [
   { title: "Contact", href: "/contact", key: "contact" },
 ];
 
-export const SERVICES = [
+export const SERVICES: ServicesTypes[] = [
   {
     id: 1,
     img: munnar,
@@ -223,7 +231,7 @@ export const PACKAGES = [
         id: 1,
         title: "Ooty – Nilgiri Hills",
         duration: "2 Days / 1 Night",
-        image: ooty,
+        img: ooty,
         description:
           "Breathe in the cool mountain air of Ooty — the Queen of Hills. Enjoy misty valleys, tea gardens, and a tranquil boat ride on Ooty Lake.",
       },
@@ -231,7 +239,7 @@ export const PACKAGES = [
         id: 2,
         title: "Kodaikanal – Dindigul District",
         duration: "2 Days / 1 Night",
-        image: kodaikanal,
+        img: kodaikanal,
         description:
           "Unwind in the romantic charm of Kodaikanal with its serene lake, pine forests, waterfalls, and breathtaking viewpoints like Coaker’s Walk.",
       },
@@ -239,7 +247,7 @@ export const PACKAGES = [
         id: 3,
         title: "Munnar – Kerala",
         duration: "2 Days / 1 Night",
-        image: munnar,
+        img: munnar,
         description:
           "Explore the rolling green tea estates, misty mountains, and peaceful charm of Kerala’s famous hill station — Munnar.",
       },
@@ -247,7 +255,7 @@ export const PACKAGES = [
         id: 4,
         title: "Yercaud – Salem District",
         duration: "2 Days / 1 Night",
-        image: yercaud,
+        img: yercaud,
         description:
           "Enjoy Yercaud’s calm weather, emerald lake views, and coffee-scented air — a hidden gem among Tamil Nadu’s hill retreats.",
       },
@@ -255,7 +263,7 @@ export const PACKAGES = [
         id: 5,
         title: "Coonoor – Nilgiri Hills",
         duration: "2 Days / 1 Night",
-        image: coonoor,
+        img: coonoor,
         description:
           "Discover Coonoor’s scenic charm through its lush tea gardens, toy train rides, and the picturesque Dolphin’s Nose viewpoint.",
       },
@@ -263,7 +271,7 @@ export const PACKAGES = [
         id: 6,
         title: "Valparai – Coimbatore District",
         duration: "2 Days / 1 Night",
-        image: valparai,
+        img: valparai,
         description:
           "Escape into the unspoiled beauty of Valparai — a serene hill station surrounded by dense forests, waterfalls, and tea plantations.",
       },
@@ -271,7 +279,7 @@ export const PACKAGES = [
         id: 7,
         title: "Kotagiri – Nilgiris",
         duration: "2 Days / 1 Night",
-        image: kotagiri,
+        img: kotagiri,
         description:
           "Experience the peace and scenic trails of Kotagiri, one of the oldest hill stations in the Nilgiris, perfect for nature lovers and trekkers.",
       },
@@ -285,7 +293,7 @@ export const PACKAGES = [
         id: 1,
         title: "Dhanuskodi Beach Tour",
         duration: "1 Day",
-        image: dhanuskodi,
+        img: dhanuskodi,
         description:
           "Explore the pristine sands and serene surroundings of Dhanuskodi, a historic coastal town at the tip of Rameswaram.",
       },
@@ -293,7 +301,7 @@ export const PACKAGES = [
         id: 2,
         title: "Kanyakumari Coastal Tour",
         duration: "2 Days / 1 Night",
-        image: kanyakumari,
+        img: kanyakumari,
         description:
           "Witness the meeting point of the Arabian Sea, Bay of Bengal, and Indian Ocean, along with vibrant sunrise and sunset views.",
       },
@@ -301,7 +309,7 @@ export const PACKAGES = [
         id: 3,
         title: "Puducherry Coastal Tour",
         duration: "1 Day",
-        image: puducherry,
+        img: puducherry,
         description:
           "Experience the French colonial charm, serene beaches, and spiritual ambiance of Puducherry's coastline.",
       },
@@ -309,7 +317,7 @@ export const PACKAGES = [
         id: 4,
         title: "Varkala Beach Tour",
         duration: "1 Day",
-        image: varkala,
+        img: varkala,
         description:
           "Relax on Varkala's cliff-top beaches and enjoy panoramic views of the Arabian Sea along with natural springs.",
       },
@@ -317,7 +325,7 @@ export const PACKAGES = [
         id: 5,
         title: "Goa Beach Tour",
         duration: "2 Days / 1 Night",
-        image: goa,
+        img: goa,
         description:
           "Discover the vibrant beaches, lively nightlife, and Portuguese heritage of Goa for a fun-filled coastal getaway.",
       },
@@ -325,7 +333,7 @@ export const PACKAGES = [
         id: 6,
         title: "Mahabalipuram Coastal Getaway",
         duration: "2 Days / 1 Night",
-        image: mahabalipuram,
+        img: mahabalipuram,
         description:
           "Explore ancient rock-cut temples and UNESCO heritage monuments along with scenic East Coast beaches.",
       },
@@ -333,7 +341,7 @@ export const PACKAGES = [
         id: 7,
         title: "Tharangambadi (Tranquebar)",
         duration: "2 Days / 1 Night",
-        image: Tharangambadi,
+        img: Tharangambadi,
         description:
           "Step back in time at Tranquebar with its Danish forts, colonial architecture, and pristine coastal views.",
       },
@@ -347,7 +355,7 @@ export const PACKAGES = [
         id: 1,
         title: "Meenakshi Amman Temple – Madurai",
         duration: "1 Days",
-        image: meenakshi,
+        img: meenakshi,
         description:
           "Marvel at the Dravidian architecture, ornate gopurams, and vibrant rituals of Madurai's famous Meenakshi Amman Temple.",
       },
@@ -355,7 +363,7 @@ export const PACKAGES = [
         id: 2,
         title: "Thiruchendur Murugan Temple – Thoothukudi",
         duration: "1 Days",
-        image: thiruchendur,
+        img: thiruchendur,
         description:
           "Visit the coastal shrine of Lord Murugan, known for its historic significance and stunning seaside location.",
       },
@@ -363,7 +371,7 @@ export const PACKAGES = [
         id: 3,
         title: "Sabari Malai - Kerala",
         duration: "2 Days / 1 Night",
-        image: sabarimalai,
+        img: sabarimalai,
         description:
           "Embark on a spiritual journey to the sacred hilltop shrine of Lord Ayyappa amidst serene forested surroundings.",
       },
@@ -371,7 +379,7 @@ export const PACKAGES = [
         id: 4,
         title: "Ramanathaswamy Temple – Rameswaram",
         duration: "2 Days / 1 Night",
-        image: rameswaram,
+        img: rameswaram,
         description:
           "Experience the sacred corridors, holy water tanks, and spiritual ambiance of one of India's most revered temples.",
       },
@@ -379,7 +387,7 @@ export const PACKAGES = [
         id: 5,
         title: "Arunachaleswarar Temple – Thiruvannamalai",
         duration: "1 Days / 1 Night",
-        image: arunachalam,
+        img: arunachalam,
         description:
           "Discover the grandeur of the hill temple dedicated to Lord Shiva, set against the scenic backdrop of Thiruvannamalai hills.",
       },
@@ -387,7 +395,7 @@ export const PACKAGES = [
         id: 6,
         title: "Palani Murugan Temple – Dindigul",
         duration: "1 Days / 1 Night",
-        image: palani,
+        img: palani,
         description:
           "Visit the hilltop Murugan temple in Palani with panoramic views, spiritual rituals, and a ropeway experience.",
       },
@@ -395,7 +403,7 @@ export const PACKAGES = [
         id: 7,
         title: "Srirangam Ranganathaswamy Temple – Tiruchirapalli",
         duration: "1 Days / 1 Night",
-        image: Srirangam,
+        img: Srirangam,
         description:
           "Explore the world's largest functioning temple complex, known for its intricate carvings and spiritual energy.",
       },
@@ -410,7 +418,7 @@ export const PACKAGES = [
         title: "South Heritage Circuit",
         place: "Coimbatore → Ooty → Kodaikanal",
         duration: "6 Days / 5 Nights",
-        image: ooty,
+        img: ooty,
         description:
           "Experience the cultural and natural heritage of South India — from Coimbatore’s temples to Ooty’s misty hills and Kodaikanal’s tranquil lakes. A perfect blend of nature and tradition.",
       },
@@ -419,7 +427,7 @@ export const PACKAGES = [
         title: "Nilgiris Circuit",
         place: "Ooty → Coonoor → Kotagiri",
         duration: "5 Days / 4 Nights",
-        image: kotagiri,
+        img: kotagiri,
         description:
           "Discover the charm of the Nilgiri Mountains — scenic drives, lush tea estates, and heritage train rides await as you journey through Ooty, Coonoor, and Kotagiri.",
       },
@@ -428,7 +436,7 @@ export const PACKAGES = [
         title: "Western Ghats Getaway",
         place: "Munnar → Valparai",
         duration: "5 Days / 4 Nights",
-        image: munnar,
+        img: munnar,
         description:
           "Explore the untouched beauty of the Western Ghats. From Munnar’s tea valleys to Valparai’s waterfalls, this road trip offers pure tranquility and adventure.",
       },
@@ -437,16 +445,16 @@ export const PACKAGES = [
         title: "Spiritual Heritage Trail",
         place: "Madurai → Rameswaram → Thiruchendur → Kanyakumari",
         duration: "6 Days / 5 Nights",
-        image: rameswaram,
+        img: rameswaram,
         description:
-          "Embark on a soul-soothing pilgrimage through Tamil Nadu’s divine temples and coastal shrines — ending at the sacred confluence of the three seas in Kanyakumari.",
+          "Embark on a soul-soothing pilgrimg through Tamil Nadu’s divine temples and coastal shrines — ending at the sacred confluence of the three seas in Kanyakumari.",
       },
       {
         id: 5,
         title: "Coastal Discovery Drive",
         place: "Chennai → Mahabalipuram → Pudhucherry → Tharangambadi",
         duration: "5 Days / 4 Nights",
-        image: mahabalipuram,
+        img: mahabalipuram,
         description:
           "Travel along Tamil Nadu’s Coromandel Coast — explore UNESCO sites in Mahabalipuram, the French charm of Pondicherry, and the colonial beauty of Tharangambadi.",
       },
@@ -455,7 +463,7 @@ export const PACKAGES = [
         title: "Temple Triangle Tour",
         place: "Madurai → Palani → Srirangam",
         duration: "4 Days / 3 Nights",
-        image: meenakshi,
+        img: meenakshi,
         description:
           "Witness architectural brilliance and divine devotion across Tamil Nadu’s most sacred temples — from Meenakshi Amman to Lord Murugan’s Palani Hills.",
       },
@@ -464,7 +472,7 @@ export const PACKAGES = [
         title: "Eco Escape Adventure",
         place: "Pollachi → Valparai → Athirapally",
         duration: "5 Days / 4 Nights",
-        image: valparai,
+        img: valparai,
         description:
           "Reconnect with nature on this scenic trail through lush forests, wildlife-rich hills, and the majestic Athirapally Waterfalls on the Tamil Nadu–Kerala border.",
       },

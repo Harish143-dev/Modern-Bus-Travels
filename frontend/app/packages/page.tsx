@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useEffect, useRef, useState } from "react";
 import { PACKAGES } from "@/constants";
 import PackageCategories from "@/components/all packages/PackageCategories";

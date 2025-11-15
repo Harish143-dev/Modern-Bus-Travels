@@ -7,6 +7,7 @@ import { WHY_CHOOSE } from "@/constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import { Heading } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useRef, useState } from "react";
 

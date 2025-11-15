@@ -7,6 +7,7 @@ import ScrollDownIcons from "./ScrollDownIcons";
 import { useGSAP } from "@gsap/react";
 import { useTheme } from "next-themes";
 import BasicEnquiries from "./BasicEnquiries";
+import Heading from "./Heading";
 
 const HeroSection = () => {
   const { resolvedTheme } = useTheme();
@@ -15,10 +16,8 @@ const HeroSection = () => {
   const heroRef = useRef<HTMLDivElement | null>(null);
   const bgRef = useRef<HTMLDivElement | null>(null);
 
-  // Mount check to prevent hydration mismatch
   useEffect(() => {
     setMounted(true);
-    // Delay fade-in slightly for smoother theme transition
   }, []);
 
   useEffect(() => {

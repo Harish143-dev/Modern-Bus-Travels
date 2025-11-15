@@ -1,9 +1,10 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import Heading from "../Heading";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -33,38 +34,7 @@ const FEEDBACKS = [
 
 const Feedbacks = () => {
   const cardsRef = useRef<HTMLDivElement[]>([]);
-  const titleRef = useRef<HTMLHeadingElement | null>(null);
-  const subtitleRef = useRef<HTMLParagraphElement | null>(null);
-
-  useEffect(() => {
-    gsap.from(titleRef.current, {
-      opacity: 0,
-      y: 80,
-      duration: 1,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: titleRef.current,
-        start: "top 80%",
-        end: "bottom 20%",
-        toggleActions: "play none none reverse",
-        scrub: true,
-      },
-    });
-
-    gsap.from(subtitleRef.current, {
-      opacity: 0,
-      y: 80,
-      duration: 2,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: subtitleRef.current,
-        start: "top 90%",
-        end: "bottom 10%",
-        toggleActions: "play none none reverse",
-        scrub: true,
-      },
-    });
-
+  useGSAP(() => {
     // Animate each feedback card
     cardsRef.current.forEach((card, i) => {
       gsap.from(card, {
@@ -81,18 +51,15 @@ const Feedbacks = () => {
         },
       });
     });
-    return () => ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
   }, []);
 
   return (
     <div className="w-full h-full flex flex-col justify-center items-center">
       <div className="text-center mb-10">
-        <h2 ref={titleRef} className="text-3xl font-bold">
-          What Our Customers Say
-        </h2>
-        <p ref={subtitleRef} className="text-sm text-gray-600 max-w-lg mx-auto">
-          Hear from those who have traveled with us.
-        </p>
+        <Heading
+          title="What Our Customers Say"
+          subtitle="Hear from those who have traveled with us.."
+        />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-5 pt-8">

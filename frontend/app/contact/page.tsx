@@ -1,6 +1,7 @@
 import BasicEnquiries from "@/components/BasicEnquiries";
 import FollowIcons from "@/components/FollowIcons";
 import FormDailog from "@/components/FormDailog";
+import Heading from "@/components/Heading";
 import { Button } from "@/components/ui/button";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -15,11 +16,10 @@ const Contact = () => {
   return (
     <main className="bg-background text-foreground pt-16 px-10 flex flex-col justify-center items-center w-full min-h-screen">
       <section className="text-center w-full">
-        <h1 className="text-3xl font-bold">Get in Touch</h1>
-        <p className="px-5 lg-px-50 text-muted-foreground">
-          We'd love to hear from you.Please feel free to reach out with any
-          questions, enquiries, or feedback.
-        </p>
+        <Heading
+          title="Contact"
+          subtitle="Contact info is here if need anything let us know"
+        />
       </section>
       <section className="flex flex-col md:flex-row lg:flex-row w-full justify-center items-center gap-10 py-10">
         <div className="max-w-md w-full flex flex-col justify-center items-center gap-2 p-5 rounded-2xl shadow-lg bg-card text-card-foreground">

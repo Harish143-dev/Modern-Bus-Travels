@@ -13,7 +13,7 @@ interface SubPackage {
   id: number;
   title: string;
   duration: string;
-  image: string | StaticImageData;
+  img: string | StaticImageData;
   description: string;
 }
 
@@ -56,7 +56,7 @@ const PackageCard: React.FC<PackageCardProps> = ({ subPkg }) => {
       {/* Image */}
       <div className="relative h-62 md:h-46 lg:h-46 w-full">
         <Image
-          src={subPkg.image}
+          src={subPkg.img}
           alt={subPkg.title}
           fill
           className="object-cover"

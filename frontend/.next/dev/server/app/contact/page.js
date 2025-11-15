@@ -6,7 +6,7 @@ R.c("server/chunks/ssr/node_modules_tailwind-merge_dist_bundle-mjs_mjs_c4cc2bc2.
 R.c("server/chunks/ssr/node_modules_@fortawesome_free-regular-svg-icons_index_mjs_cd77c5fe._.js")
 R.c("server/chunks/ssr/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_aad4a789._.js")
 R.c("server/chunks/ssr/node_modules_65b21509._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__d5909dae._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__2351bc63._.js")
 R.c("server/chunks/ssr/node_modules_eb7ec0ea._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__e8a2741f._.js")
 R.c("server/chunks/ssr/app_b9b1292a._.js")

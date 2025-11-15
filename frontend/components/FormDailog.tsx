@@ -17,7 +17,7 @@ interface SubPackage {
   id: number;
   title: string;
   duration: string;
-  image: string | StaticImageData;
+  img: string | StaticImageData;
   description: string;
 }
 

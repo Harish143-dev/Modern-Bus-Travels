@@ -1,7 +1,6 @@
 import StickCards from "@/components/StickyCards/StickCards";
 import React from "react";
 
-
 const page = () => {
   return (
     <>

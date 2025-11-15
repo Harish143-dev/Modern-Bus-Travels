@@ -591,7 +591,7 @@ __turbopack_context__.s([
     "WHY_CHOOSE",
     ()=>WHY_CHOOSE
 ]);
-// Hills Stations Images
+// Hills Stations imgs
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/munnar.jpg.mjs { IMAGE => "[project]/assets/tourPackage/munnar.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/ooty.jpg.mjs { IMAGE => "[project]/assets/tourPackage/ooty.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kodaikanal$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kodaikanal$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/kodaikanal.jpg.mjs { IMAGE => "[project]/assets/tourPackage/kodaikanal.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
@@ -601,7 +601,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$yer
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$coonoor$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$coonoor$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/coonoor.jpg.mjs { IMAGE => "[project]/assets/tourPackage/coonoor.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/valparai.jpg.mjs { IMAGE => "[project]/assets/tourPackage/valparai.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/kotagiri.jpg.mjs { IMAGE => "[project]/assets/tourPackage/kotagiri.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
-// costal Images
+// costal imgs
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$dhanuskodi$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$dhanuskodi$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/dhanuskodi.jpg.mjs { IMAGE => "[project]/assets/tourPackage/dhanuskodi.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$goa$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$goa$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/goa.jpeg.mjs { IMAGE => "[project]/assets/tourPackage/goa.jpeg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kanyakumari$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kanyakumari$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/kanyakumari.jpg.mjs { IMAGE => "[project]/assets/tourPackage/kanyakumari.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
@@ -609,7 +609,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$mah
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$puducherry$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$puducherry$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/puducherry.jpeg.mjs { IMAGE => "[project]/assets/tourPackage/puducherry.jpeg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$varkala$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$varkala$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/varkala.jpg.mjs { IMAGE => "[project]/assets/tourPackage/varkala.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$tharangambadi$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$tharangambadi$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/tharangambadi.jpeg.mjs { IMAGE => "[project]/assets/tourPackage/tharangambadi.jpeg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
-// Temple Images
+// Temple imgs
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$thiruchendur$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$thiruchendur$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/thiruchendur.jpg.mjs { IMAGE => "[project]/assets/tourPackage/thiruchendur.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$Srirangam$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$Srirangam$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/Srirangam.jpg.mjs { IMAGE => "[project]/assets/tourPackage/Srirangam.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$sabarimalai$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$sabarimalai$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/tourPackage/sabarimalai.jpg.mjs { IMAGE => "[project]/assets/tourPackage/sabarimalai.jpg (static in ecmascript, tag client)" } [app-ssr] (structured image object with data url, ecmascript)');
@@ -841,49 +841,49 @@ const PACKAGES = [
                 id: 1,
                 title: "Ooty – Nilgiri Hills",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Breathe in the cool mountain air of Ooty — the Queen of Hills. Enjoy misty valleys, tea gardens, and a tranquil boat ride on Ooty Lake."
             },
             {
                 id: 2,
                 title: "Kodaikanal – Dindigul District",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kodaikanal$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kodaikanal$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kodaikanal$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kodaikanal$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Unwind in the romantic charm of Kodaikanal with its serene lake, pine forests, waterfalls, and breathtaking viewpoints like Coaker’s Walk."
             },
             {
                 id: 3,
                 title: "Munnar – Kerala",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Explore the rolling green tea estates, misty mountains, and peaceful charm of Kerala’s famous hill station — Munnar."
             },
             {
                 id: 4,
                 title: "Yercaud – Salem District",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$yercard$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$yercard$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$yercard$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$yercard$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Enjoy Yercaud’s calm weather, emerald lake views, and coffee-scented air — a hidden gem among Tamil Nadu’s hill retreats."
             },
             {
                 id: 5,
                 title: "Coonoor – Nilgiri Hills",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$coonoor$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$coonoor$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$coonoor$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$coonoor$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Discover Coonoor’s scenic charm through its lush tea gardens, toy train rides, and the picturesque Dolphin’s Nose viewpoint."
             },
             {
                 id: 6,
                 title: "Valparai – Coimbatore District",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Escape into the unspoiled beauty of Valparai — a serene hill station surrounded by dense forests, waterfalls, and tea plantations."
             },
             {
                 id: 7,
                 title: "Kotagiri – Nilgiris",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Experience the peace and scenic trails of Kotagiri, one of the oldest hill stations in the Nilgiris, perfect for nature lovers and trekkers."
             }
         ]
@@ -896,49 +896,49 @@ const PACKAGES = [
                 id: 1,
                 title: "Dhanuskodi Beach Tour",
                 duration: "1 Day",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$dhanuskodi$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$dhanuskodi$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$dhanuskodi$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$dhanuskodi$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Explore the pristine sands and serene surroundings of Dhanuskodi, a historic coastal town at the tip of Rameswaram."
             },
             {
                 id: 2,
                 title: "Kanyakumari Coastal Tour",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kanyakumari$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kanyakumari$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kanyakumari$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kanyakumari$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Witness the meeting point of the Arabian Sea, Bay of Bengal, and Indian Ocean, along with vibrant sunrise and sunset views."
             },
             {
                 id: 3,
                 title: "Puducherry Coastal Tour",
                 duration: "1 Day",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$puducherry$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$puducherry$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$puducherry$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$puducherry$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Experience the French colonial charm, serene beaches, and spiritual ambiance of Puducherry's coastline."
             },
             {
                 id: 4,
                 title: "Varkala Beach Tour",
                 duration: "1 Day",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$varkala$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$varkala$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$varkala$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$varkala$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Relax on Varkala's cliff-top beaches and enjoy panoramic views of the Arabian Sea along with natural springs."
             },
             {
                 id: 5,
                 title: "Goa Beach Tour",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$goa$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$goa$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$goa$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$goa$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Discover the vibrant beaches, lively nightlife, and Portuguese heritage of Goa for a fun-filled coastal getaway."
             },
             {
                 id: 6,
                 title: "Mahabalipuram Coastal Getaway",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$mahabalipuram$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$mahabalipuram$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$mahabalipuram$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$mahabalipuram$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Explore ancient rock-cut temples and UNESCO heritage monuments along with scenic East Coast beaches."
             },
             {
                 id: 7,
                 title: "Tharangambadi (Tranquebar)",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$tharangambadi$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$tharangambadi$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$tharangambadi$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$tharangambadi$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Step back in time at Tranquebar with its Danish forts, colonial architecture, and pristine coastal views."
             }
         ]
@@ -951,49 +951,49 @@ const PACKAGES = [
                 id: 1,
                 title: "Meenakshi Amman Temple – Madurai",
                 duration: "1 Days",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$meenakshi$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$meenakshi$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$meenakshi$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$meenakshi$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Marvel at the Dravidian architecture, ornate gopurams, and vibrant rituals of Madurai's famous Meenakshi Amman Temple."
             },
             {
                 id: 2,
                 title: "Thiruchendur Murugan Temple – Thoothukudi",
                 duration: "1 Days",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$thiruchendur$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$thiruchendur$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$thiruchendur$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$thiruchendur$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Visit the coastal shrine of Lord Murugan, known for its historic significance and stunning seaside location."
             },
             {
                 id: 3,
                 title: "Sabari Malai - Kerala",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$sabarimalai$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$sabarimalai$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$sabarimalai$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$sabarimalai$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Embark on a spiritual journey to the sacred hilltop shrine of Lord Ayyappa amidst serene forested surroundings."
             },
             {
                 id: 4,
                 title: "Ramanathaswamy Temple – Rameswaram",
                 duration: "2 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$rameswaram$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$rameswaram$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$rameswaram$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$rameswaram$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Experience the sacred corridors, holy water tanks, and spiritual ambiance of one of India's most revered temples."
             },
             {
                 id: 5,
                 title: "Arunachaleswarar Temple – Thiruvannamalai",
                 duration: "1 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$arunachalam$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$arunachalam$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$arunachalam$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$arunachalam$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Discover the grandeur of the hill temple dedicated to Lord Shiva, set against the scenic backdrop of Thiruvannamalai hills."
             },
             {
                 id: 6,
                 title: "Palani Murugan Temple – Dindigul",
                 duration: "1 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$palani$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$palani$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$palani$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$palani$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Visit the hilltop Murugan temple in Palani with panoramic views, spiritual rituals, and a ropeway experience."
             },
             {
                 id: 7,
                 title: "Srirangam Ranganathaswamy Temple – Tiruchirapalli",
                 duration: "1 Days / 1 Night",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$Srirangam$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$Srirangam$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$Srirangam$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$Srirangam$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Explore the world's largest functioning temple complex, known for its intricate carvings and spiritual energy."
             }
         ]
@@ -1007,7 +1007,7 @@ const PACKAGES = [
                 title: "South Heritage Circuit",
                 place: "Coimbatore → Ooty → Kodaikanal",
                 duration: "6 Days / 5 Nights",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$ooty$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Experience the cultural and natural heritage of South India — from Coimbatore’s temples to Ooty’s misty hills and Kodaikanal’s tranquil lakes. A perfect blend of nature and tradition."
             },
             {
@@ -1015,7 +1015,7 @@ const PACKAGES = [
                 title: "Nilgiris Circuit",
                 place: "Ooty → Coonoor → Kotagiri",
                 duration: "5 Days / 4 Nights",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$kotagiri$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Discover the charm of the Nilgiri Mountains — scenic drives, lush tea estates, and heritage train rides await as you journey through Ooty, Coonoor, and Kotagiri."
             },
             {
@@ -1023,7 +1023,7 @@ const PACKAGES = [
                 title: "Western Ghats Getaway",
                 place: "Munnar → Valparai",
                 duration: "5 Days / 4 Nights",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$munnar$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Explore the untouched beauty of the Western Ghats. From Munnar’s tea valleys to Valparai’s waterfalls, this road trip offers pure tranquility and adventure."
             },
             {
@@ -1031,15 +1031,15 @@ const PACKAGES = [
                 title: "Spiritual Heritage Trail",
                 place: "Madurai → Rameswaram → Thiruchendur → Kanyakumari",
                 duration: "6 Days / 5 Nights",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$rameswaram$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$rameswaram$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
-                description: "Embark on a soul-soothing pilgrimage through Tamil Nadu’s divine temples and coastal shrines — ending at the sacred confluence of the three seas in Kanyakumari."
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$rameswaram$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$rameswaram$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                description: "Embark on a soul-soothing pilgrimg through Tamil Nadu’s divine temples and coastal shrines — ending at the sacred confluence of the three seas in Kanyakumari."
             },
             {
                 id: 5,
                 title: "Coastal Discovery Drive",
                 place: "Chennai → Mahabalipuram → Pudhucherry → Tharangambadi",
                 duration: "5 Days / 4 Nights",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$mahabalipuram$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$mahabalipuram$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$mahabalipuram$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$mahabalipuram$2e$jpeg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Travel along Tamil Nadu’s Coromandel Coast — explore UNESCO sites in Mahabalipuram, the French charm of Pondicherry, and the colonial beauty of Tharangambadi."
             },
             {
@@ -1047,7 +1047,7 @@ const PACKAGES = [
                 title: "Temple Triangle Tour",
                 place: "Madurai → Palani → Srirangam",
                 duration: "4 Days / 3 Nights",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$meenakshi$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$meenakshi$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$meenakshi$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$meenakshi$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Witness architectural brilliance and divine devotion across Tamil Nadu’s most sacred temples — from Meenakshi Amman to Lord Murugan’s Palani Hills."
             },
             {
@@ -1055,7 +1055,7 @@ const PACKAGES = [
                 title: "Eco Escape Adventure",
                 place: "Pollachi → Valparai → Athirapally",
                 duration: "5 Days / 4 Nights",
-                image: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                img: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$tourPackage$2f$valparai$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                 description: "Reconnect with nature on this scenic trail through lush forests, wildlife-rich hills, and the majestic Athirapally Waterfalls on the Tamil Nadu–Kerala border."
             }
         ]

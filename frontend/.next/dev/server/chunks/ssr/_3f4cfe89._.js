@@ -222,15 +222,16 @@ const Buses = ()=>{
             opacity: 0,
             x: 100,
             duration: 1,
-            ease: "power3.out"
+            ease: "power3.in"
         });
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].from(subtitleRef.current, {
             opacity: 0,
             x: -100,
             duration: 1,
-            ease: "power2.in"
+            ease: "power2.in",
+            delay: 0.5
         });
-    }, {});
+    }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "flex flex-col items-center justify-center min-h-screen py-20 px-10 w-full",
         children: [
