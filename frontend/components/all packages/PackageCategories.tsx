@@ -34,28 +34,44 @@ const PackageCategories: React.FC<PackageCategoriesProps> = ({
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const textRef = useRef<HTMLDivElement | null>(null);
   const autoScrollRef = useRef<number | null>(null);
+  // ✅ NEW: Create refs array for individual card targeting
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-  // Title animation
   useGSAP(() => {
-    if (!textRef.current) return;
+    const container = scrollRef.current;
+    const title = textRef.current;
+    if (!container || !title) return;
 
-    gsap.fromTo(
-      textRef.current,
-      { opacity: 0, x: -100 },
-      {
-        opacity: 1,
-        x: 0,
-        duration: 1,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: textRef.current,
-          start: "top 80%",
-          end: "bottom 20%",
-          scrub: true,
-        },
-      }
-    );
-  }, {});
+    // Title animation
+    gsap.from(title, {
+      opacity: 0,
+      x: -100,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: title,
+        start: "top 80%",
+        end: "bottom 20%",
+        scrub: true,
+      },
+    });
+
+    // ✅ FIXED: Animate cards individually with stagger
+    gsap.from(cardRefs.current, {
+      opacity: 0,
+      y: 50,
+      scale: 0.9,
+      duration: 0.6,
+      stagger: 0.15, // Each card animates 0.15s after the previous
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: container,
+        start: "top 75%",
+        end: "bottom 25%",
+        toggleActions: "play none none none",
+      },
+    });
+  }, [pkgCategory.subPackages?.length]); // Re-run when packages change
 
   // Horizontal auto-scroll
   useEffect(() => {
@@ -104,21 +120,6 @@ const PackageCategories: React.FC<PackageCategoriesProps> = ({
     container.scrollBy({ left: scrollAmount, behavior: "smooth" });
   };
 
-  // Card animation on load (staggered)
-  useEffect(() => {
-    const cards = scrollRef.current?.children;
-    if (!cards) return;
-
-    gsap.from(cards, {
-      opacity: 0,
-      y: 20,
-      scale: 0.95,
-      stagger: 0.1,
-      duration: 0.8,
-      ease: "power3.out",
-    });
-  }, []);
-
   return (
     <div className="w-full relative h-full flex justify-center items-baseline flex-col">
       {/* Category Title */}
@@ -150,8 +151,15 @@ const PackageCategories: React.FC<PackageCategoriesProps> = ({
         ref={scrollRef}
         className="p-5 flex w-full overflow-x-auto rounded-2xl scroll-smooth gap-6 pb-4 relative z-20 scrollbar-hide"
       >
-        {pkgCategory.subPackages?.map((subPkg) => (
-          <PackageCard key={subPkg.id} subPkg={subPkg} />
+        {pkgCategory.subPackages?.map((subPkg, index) => (
+          <div
+            key={subPkg.id}
+            ref={(el) => {
+              cardRefs.current[index] = el;
+            }}
+          >
+            <PackageCard subPkg={subPkg} />
+          </div>
         ))}
       </div>
 

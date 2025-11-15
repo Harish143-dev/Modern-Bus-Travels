@@ -120,13 +120,23 @@
     @apply bg-background text-foreground;
   }
 
-  /* Base section styling */
-  .section {
-    @apply relative w-full min-h-screen will-change-transform flex items-center justify-center;
-  }
-
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
 }
+.sticky-section {
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+@media (max-width: 767px) {
+  .sticky-section {
+    position: relative !important;
+    transform: none !important;
+  }
+}

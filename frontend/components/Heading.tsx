@@ -4,30 +4,18 @@ import React, { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
-interface HeadindType {
+interface HeadingType {
   title: string;
   subtitle: string;
 }
+
 gsap.registerPlugin(ScrollTrigger);
-const Heading = ({ title, subtitle }: HeadindType) => {
+
+const Heading = ({ title, subtitle }: HeadingType) => {
   const titleRef = useRef<HTMLHeadingElement | null>(null);
   const subtitleRef = useRef<HTMLParagraphElement | null>(null);
 
   useGSAP(() => {
-    // gsap.from(".titleHead", {
-    //   opacity: 0,
-    //   x: 100,
-    //   duration: 1,
-    //   ease: "power3.in",
-    // });
-    // gsap.from(subtitleRef.current, {
-    //   opacity: 0,
-    //   x: -100,
-    //   duration: 1,
-    //   ease: "power2.in",
-    //   delay: 0.5,
-    // });
-
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: titleRef.current,
@@ -40,20 +28,20 @@ const Heading = ({ title, subtitle }: HeadindType) => {
     tl.from(titleRef.current, {
       y: 50,
       opacity: 0,
-      scale: 0.5,
-      ease: "power3.inOut",
-      duration: 1,
+      scale: 0.8,
+      ease: "power3.out",
+      duration: 0.8,
     });
 
     tl.from(subtitleRef.current, {
-      y: 50,
+      y: 30,
       opacity: 0,
-      scale: 0.5,
-      ease: "power3.inOut",
-      duration: 1,
-      delay: 1,
+      scale: 0.9,
+      ease: "power3.out",
+      duration: 0.8,
     });
   }, []);
+
   return (
     <div className="text-center w-full">
       <h1 ref={titleRef} className="titleHead text-3xl font-bold">

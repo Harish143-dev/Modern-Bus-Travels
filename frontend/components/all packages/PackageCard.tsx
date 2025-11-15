@@ -1,13 +1,8 @@
 "use client";
 
-import React, { useRef } from "react";
+import React from "react";
 import Image, { StaticImageData } from "next/image";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from "@gsap/react";
 import FormDailog from "../FormDailog";
-
-gsap.registerPlugin(ScrollTrigger);
 
 interface SubPackage {
   id: number;
@@ -22,39 +17,17 @@ interface PackageCardProps {
 }
 
 const PackageCard: React.FC<PackageCardProps> = ({ subPkg }) => {
-  const cardRef = useRef<HTMLDivElement | null>(null);
-
-  useGSAP(() => {
-    gsap.fromTo(
-      cardRef.current,
-      { opacity: 0, scale: 0.6 },
-      {
-        opacity: 1,
-        scale: 1,
-        duration: 1,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: cardRef.current,
-          start: "top 85%",
-          end: "bottom 60%",
-          scrub: true,
-          toggleActions: "play none none reverse",
-        },
-      }
-    );
-  }, {});
-
   return (
     <div
-      ref={cardRef}
       className="
-        flex-shrink-0 w-xs md:w-sm lg:w-md 
-        rounded-2xl overflow-hidden shadow-lg bg-card
-        hover:shadow-xl transition-all duration-300 hover:-translate-y-1
+        flex-shrink-0   w-60 md:w-72 lg:w-80 
+        packageCard rounded-2xl overflow-hidden 
+        shadow-lg bg-card hover:shadow-xl 
+        transition-all duration-300 hover:-translate-y-1
       "
     >
       {/* Image */}
-      <div className="relative h-62 md:h-46 lg:h-46 w-full">
+      <div className="relative h-48 md:h-56 lg:h-36 w-full">
         <Image
           src={subPkg.img}
           alt={subPkg.title}
