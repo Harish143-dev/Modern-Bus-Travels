@@ -51,6 +51,8 @@ export default function AboutContent({ whyChooseData }: AboutContentProps) {
         containerRef.current!.querySelectorAll<HTMLDivElement>(
           ".sticky-card-about"
         );
+        ScrollTrigger.matchMedia({
+        "(min-width: 1024px)": () => {}});
       stickyCards.forEach((card, index) => {
         if (index < stickyCards.length - 1) {
           // Pin card

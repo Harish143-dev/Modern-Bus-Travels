@@ -1,7 +1,8 @@
 import { PACKAGES } from "@/constants";
 import ScrollUpButton from "@/components/ScrollUpButton";
-import PackagesHero from "@/components/all packages/PackaegesHero";
 import PackagesList from "@/components/all packages/packagesList";
+import { ParallaxHero } from "@/components/ParallaxHero";
+import HeroHeading from "@/components/HeroHeading";
 
 // Server Component - fetches data, composes layout
 export default function PackagesPage() {
@@ -10,7 +11,19 @@ export default function PackagesPage() {
 
   return (
     <main>
-      <PackagesHero />
+      <ParallaxHero
+        lightBgImage="/bg/parallaxDay2.png"
+        darkBgImage="/bg/parallaxNight2.png"
+        animations={{
+          bgParallaxDistance: 150, // More dramatic parallax
+          staggerDelay: 0.2,
+        }}
+      >
+        <HeroHeading
+          title="Our Travel Packages"
+          subTitle="Explore Tamil Nadu's beauty through customized travel experiences."
+        />
+      </ParallaxHero>
       <PackagesList packages={PACKAGES} />
       <ScrollUpButton />
     </main>

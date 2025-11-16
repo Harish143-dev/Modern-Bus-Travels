@@ -4,21 +4,74 @@ import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import ScrollDownIcons from "../ScrollDownIcons";
 import { useTheme } from "next-themes";
-import BasicEnquiries from "../BasicEnquiries";
 import Image from "next/image";
-import HeroHeading from "../HeroHeading";
+import BasicEnquiries from "./BasicEnquiries";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export function ParallaxHero() {
+// Types for the component props
+interface ParallaxHeroProps {
+  // Background images
+  lightBgImage: string;
+  darkBgImage: string;
+  bgAlt?: string;
+
+  // Section styling
+  height?: string;
+  className?: string;
+
+  // Animation configuration
+  animations?: {
+    bgInitialScale?: number;
+    bgParallaxDistance?: number;
+    contentFadeDistance?: number;
+    staggerDelay?: number;
+  };
+
+  // Gradient overlay
+  showGradient?: boolean;
+  gradientClassName?: string;
+
+  // Content
+  children: React.ReactNode;
+
+  // Additional elements
+  showScrollIndicator?: boolean;
+  scrollIndicator?: React.ReactNode;
+
+  // Loading state
+  loadingComponent?: React.ReactNode;
+}
+
+export function ParallaxHero({
+  lightBgImage,
+  darkBgImage,
+  bgAlt = "Background",
+  height = "h-[130vh]",
+  className = "",
+  animations = {},
+  showGradient = true,
+  gradientClassName = "bg-gradient-to-t from-black/80 via-black/60 to-transparent",
+  children,
+  showScrollIndicator = false,
+  scrollIndicator,
+  loadingComponent,
+}: ParallaxHeroProps) {
   const { resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   const sectionRef = useRef<HTMLElement>(null);
   const bgRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
+
+  // Animation defaults
+  const {
+    bgInitialScale = 1.2,
+    bgParallaxDistance = 100,
+    contentFadeDistance = -50,
+    staggerDelay = 0.15,
+  } = animations;
 
   useEffect(() => setMounted(true), []);
 
@@ -30,7 +83,7 @@ export function ParallaxHero() {
       if (bgRef.current) {
         gsap.from(bgRef.current, {
           opacity: 0,
-          scale: 1.2,
+          scale: bgInitialScale,
           duration: 1.5,
           ease: "power2.out",
         });
@@ -42,7 +95,7 @@ export function ParallaxHero() {
         gsap.from(elements, {
           opacity: 0,
           y: 60,
-          stagger: 0.15,
+          stagger: staggerDelay,
           duration: 1,
           ease: "power3.out",
         });
@@ -50,7 +103,7 @@ export function ParallaxHero() {
 
       // Parallax scroll effect
       gsap.to(bgRef.current, {
-        y: 100,
+        y: bgParallaxDistance,
         ease: "none",
         scrollTrigger: {
           trigger: sectionRef.current,
@@ -63,7 +116,7 @@ export function ParallaxHero() {
       // Fade out content on scroll
       gsap.to(contentRef.current, {
         opacity: 0,
-        y: -50,
+        y: contentFadeDistance,
         ease: "none",
         scrollTrigger: {
           trigger: sectionRef.current,
@@ -75,21 +128,29 @@ export function ParallaxHero() {
     }, sectionRef);
 
     return () => ctx.revert();
-  }, [mounted]);
+  }, [
+    mounted,
+    bgInitialScale,
+    bgParallaxDistance,
+    contentFadeDistance,
+    staggerDelay,
+  ]);
 
+  // Loading state
   if (!mounted) {
     return (
-      <section className="relative w-full min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900" />
+      loadingComponent || (
+        <section className="relative w-full min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900" />
+      )
     );
   }
 
-  const bgImage =
-    resolvedTheme === "dark" ? "/bg/parallaxNight.jpg" : "/bg/parallaxDay.jpg";
+  const bgImage = resolvedTheme === "dark" ? darkBgImage : lightBgImage;
 
   return (
     <section
       ref={sectionRef}
-      className="relative w-full h-[130vh] flex flex-col items-center justify-center text-center overflow-hidden"
+      className={`relative w-full ${height} flex flex-col items-center justify-center text-center overflow-hidden ${className}`}
     >
       {/* Parallax Background */}
       <div
@@ -99,34 +160,31 @@ export function ParallaxHero() {
       >
         <Image
           src={bgImage}
-          alt="Background"
+          alt={bgAlt}
           fill
           className="object-cover object-center"
+          priority
         />
       </div>
 
       {/* Gradient Overlay */}
-      <div
-        className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent z-10"
-        aria-hidden="true"
-      />
+      {showGradient && (
+        <div
+          className={`absolute inset-0 z-10 ${gradientClassName}`}
+          aria-hidden="true"
+        />
+      )}
 
       {/* Content */}
       <div
         ref={contentRef}
         className="relative z-20 flex flex-col items-center justify-center gap-5 px-6 max-w-5xl will-change-transform"
       >
-        <HeroHeading
-          title="Explore Tamil Nadu with BSK Travels"
-          subTitle=" Your journey to unforgettable experiences begins here"
-          para=" Discover the rich culture, breathtaking landscapes, and hidden gems of
-          Tamil Nadu. From serene beaches to majestic temples — every trip is
-          crafted for memories that last a lifetime."
-        />
-        <BasicEnquiries />
+        {children}
       </div>
 
-      <ScrollDownIcons />
+      {/* Scroll Indicator */}
+      {showScrollIndicator && scrollIndicator}
     </section>
   );
 }

@@ -1,7 +1,9 @@
+"use client";
 import React, { useRef } from "react";
 import gsap from "gsap";
 import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
+import BasicEnquiries from "./BasicEnquiries";
 
 interface HeroHeadingType {
   title: string;
@@ -14,6 +16,7 @@ const HeroHeading = ({ title, subTitle, para }: HeroHeadingType) => {
   const HeadingRef = useRef<HTMLHeadingElement | null>(null);
   const subTitleRef = useRef<HTMLParagraphElement | null>(null);
   const paraRef = useRef<HTMLParagraphElement | null>(null);
+  const buttonRef = useRef<HTMLDivElement | null>(null);
   useGSAP(() => {
     const splitTitle = new SplitText(HeadingRef.current, {
       type: "chars words lines",
@@ -56,6 +59,15 @@ const HeroHeading = ({ title, subTitle, para }: HeroHeadingType) => {
       delay: 1.5,
       ease: "expo.out",
     });
+
+    gsap.from(buttonRef.current, {
+      y: 50,
+      scale: 0.7,
+      opacity: 0,
+      duration: 1,
+      delay: 1.8,
+      ease: "expo.out",
+    });
   }, []);
   return (
     <div className="w-full flex flex-col items-center justify-center gap-5">
@@ -68,7 +80,7 @@ const HeroHeading = ({ title, subTitle, para }: HeroHeadingType) => {
 
       <p
         ref={subTitleRef}
-        className="text-lg md:text-xl lg:text-2xl font-medium text-muted-foreground drop-shadow-2xl"
+        className="text-md md:text-xl lg:text-2xl font-medium text-muted-foreground drop-shadow-2xl"
       >
         {subTitle}
       </p>
@@ -76,11 +88,14 @@ const HeroHeading = ({ title, subTitle, para }: HeroHeadingType) => {
       {para && (
         <p
           ref={paraRef}
-          className="max-w-2xl text-sm md:text-base lg:text-lg text-muted-foreground font-semibold leading-relaxed"
+          className="max-w-2xl text-sm md:text-base text-muted-foreground font-semibold leading-relaxed"
         >
           {para}
         </p>
       )}
+      <div ref={buttonRef}>
+        <BasicEnquiries />
+      </div>
     </div>
   );
 };

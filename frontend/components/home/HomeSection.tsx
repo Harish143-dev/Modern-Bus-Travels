@@ -4,7 +4,8 @@ import React, { useRef, lazy, Suspense } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ParallaxHero } from "./HeroSection";
+import { ParallaxHero } from "../ParallaxHero";
+import HeroHeading from "../HeroHeading";
 
 // Lazy load sections that aren't immediately visible
 const Services = lazy(() => import("@/components/home/Services"));
@@ -83,7 +84,22 @@ export default function HomeSections() {
     <div ref={containerRef} className="relative w-full overflow-hidden">
       {/* Hero loads immediately */}
       <section className="sticky-section min-h-screen bg-background">
-        <ParallaxHero />
+        <ParallaxHero
+          lightBgImage="/bg/parallaxDay1.jpg"
+          darkBgImage="/bg/parallaxNight1.jpg"
+          animations={{
+            bgParallaxDistance: 150, // More dramatic parallax
+            staggerDelay: 0.2,
+          }}
+        >
+          <HeroHeading
+            title="Explore Tamil Nadu with BSK Travels"
+            subTitle=" Your journey to unforgettable experiences begins here"
+            para=" Discover the rich culture, breathtaking landscapes, and hidden gems of
+          Tamil Nadu. From serene beaches to majestic temples — every trip is
+          crafted for memories that last a lifetime."
+          />
+        </ParallaxHero>
       </section>
 
       {/* Other sections load lazily */}

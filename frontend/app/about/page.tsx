@@ -1,7 +1,8 @@
 import { WHY_CHOOSE } from "@/constants";
-import AboutHero from "@/components/about/AboutHero";
 import AboutContent from "@/components/about/AboutContent";
 import ScrollUpButton from "@/components/ScrollUpButton";
+import { ParallaxHero } from "@/components/ParallaxHero";
+import HeroHeading from "@/components/HeroHeading";
 
 // Metadata for SEO (only works in Server Components)
 export const metadata = {
@@ -13,7 +14,19 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <main className="relative w-full h-full overflow-x-hidden">
-      <AboutHero />
+      <ParallaxHero
+        lightBgImage="/bg/parallaxDay.jpg"
+        darkBgImage="/bg/parallaxNight.jpg"
+        animations={{
+          bgParallaxDistance: 150, // More dramatic parallax
+          staggerDelay: 0.2,
+        }}
+      >
+        <HeroHeading
+          title="Experience the journey with BSK Travels"
+          subTitle="Discover a new era of bus travels in India, where luxury, comfort, and safety are paramount"
+        />
+      </ParallaxHero>
       <AboutContent whyChooseData={WHY_CHOOSE} />
       <ScrollUpButton />
     </main>

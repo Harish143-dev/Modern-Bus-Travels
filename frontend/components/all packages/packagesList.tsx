@@ -61,7 +61,7 @@ export default function PackagesList({ packages }: PackagesListProps) {
       {packages.map((pkgCategory) => (
         <div
           key={pkgCategory.id}
-          className="sticky-card relative pt-16 w-full min-h-screen flex items-center justify-center bg-muted will-change-transform"
+          className="sticky-card relative pt-16 w-full min-h-screen flex items-center justify-center will-change-transform"
         >
           <PackageCategories pkgCategory={pkgCategory} />
         </div>
