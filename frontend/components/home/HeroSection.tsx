@@ -8,6 +8,7 @@ import ScrollDownIcons from "../ScrollDownIcons";
 import { useTheme } from "next-themes";
 import BasicEnquiries from "../BasicEnquiries";
 import Image from "next/image";
+import HeroHeading from "../HeroHeading";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,26 +79,30 @@ export function ParallaxHero() {
 
   if (!mounted) {
     return (
-      <section className="relative w-full h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900" />
+      <section className="relative w-full min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900" />
     );
   }
 
   const bgImage =
-    resolvedTheme === "dark" ? "/bg/parallaxDay.jpg" : "/bg/parallaxNight.jpg";
+    resolvedTheme === "dark" ? "/bg/parallaxNight.jpg" : "/bg/parallaxDay.jpg";
 
   return (
     <section
       ref={sectionRef}
-      className="relative w-full h-[120%] flex flex-col items-center justify-center text-center overflow-hidden"
+      className="relative w-full h-[130vh] flex flex-col items-center justify-center text-center overflow-hidden"
     >
       {/* Parallax Background */}
       <div
         ref={bgRef}
-        className="absolute inset-0 h-[120%] will-change-transform"
-   
+        className="absolute h-[120%] w-full will-change-transform pointer-events-none"
         aria-hidden="true"
       >
-        <Image src={bgImage} alt="Background" fill className="object-cover object-center z-20" />
+        <Image
+          src={bgImage}
+          alt="Background"
+          fill
+          className="object-cover object-center"
+        />
       </div>
 
       {/* Gradient Overlay */}
@@ -111,20 +116,13 @@ export function ParallaxHero() {
         ref={contentRef}
         className="relative z-20 flex flex-col items-center justify-center gap-5 px-6 max-w-5xl will-change-transform"
       >
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-muted-foreground font-extrabold drop-shadow-[0_4px_6px_rgba(0,0,0,0.6)]">
-          Explore Tamil Nadu with BSK Travels
-        </h1>
-
-        <p className="text-lg md:text-xl lg:text-2xl font-medium text-muted-foreground drop-shadow-2xl">
-          Your journey to unforgettable experiences begins here
-        </p>
-
-        <p className="max-w-2xl text-sm md:text-base lg:text-lg text-muted-foreground font-semibold leading-relaxed">
-          Discover the rich culture, breathtaking landscapes, and hidden gems of
+        <HeroHeading
+          title="Explore Tamil Nadu with BSK Travels"
+          subTitle=" Your journey to unforgettable experiences begins here"
+          para=" Discover the rich culture, breathtaking landscapes, and hidden gems of
           Tamil Nadu. From serene beaches to majestic temples — every trip is
-          crafted for memories that last a lifetime.
-        </p>
-
+          crafted for memories that last a lifetime."
+        />
         <BasicEnquiries />
       </div>
 

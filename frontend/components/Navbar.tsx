@@ -11,6 +11,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import FormDailog from "./FormDailog";
 import BasicEnquiries from "./BasicEnquiries";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,9 +72,16 @@ const Navbar = () => {
         className="w-full md:w-[80%] backdrop-blur-sm bg-background/20 backdrop-brightness-95 text-card-foreground shadow-xl rounded-xl"
       >
         <div className="flex justify-between items-center px-6 lg:px-10 py-3">
-          <Link href={"/"} className="text-3xl font-bold px-2 ">
-            BSK<span className="text-lg font-semibold">Travels</span>
-          </Link>
+          <div className="flex items-center">
+            <Link href={"/"}>
+              <Image
+                src="/logo.png"
+                alt="BSK Travels"
+                width={90}
+                height={10}
+              />
+            </Link>
+          </div>
 
           {/* Desktop Links */}
           <ul className="hidden lg:flex justify-center items-center space-x-6">

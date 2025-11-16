@@ -2,11 +2,6 @@
 import HomeSections from "@/components/home/HomeSection";
 import ScrollUpButton from "@/components/ScrollUpButton";
 
-export const metadata = {
-  title: "BSK Travels - Premium Bus Services",
-  description: "Experience luxury bus travel across India",
-};
-
 // Example: Fetch data on server (when ready)
 async function getHomeData() {
   // In future, fetch from database or API

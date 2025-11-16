@@ -11,7 +11,7 @@ interface ServicesTypes {
 }
 const Services = () => {
   return (
-    <div className="py-16 px-5 flex flex-col items-center justify-center w-full h-full">
+    <div className="px-5 flex lg:mt-5 py-16 flex-col items-center justify-between  w-full h-full">
       {/* Header */}
       <div className="text-center mb-3">
         <Heading

@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 const TourPackages = () => {
   return (
-    <div className="py-16 px-5 h-full flex items-center justify-center flex-col w-full">
+    <div className="py-16 lg:mt-5 px-5 h-full flex items-center justify-center flex-col w-full">
       <div className="text-center">
         <Heading
           title=" Tour Package"

@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Contact = () => {
   return (
     <main className="bg-background text-foreground pt-16 px-10 flex flex-col justify-center items-center w-full min-h-screen">
-      <section className="text-center w-full">
+      <section className="text-center w-full py-5">
         <Heading
           title="Contact"
           subtitle="Contact info is here if need anything let us know"

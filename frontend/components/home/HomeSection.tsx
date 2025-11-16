@@ -35,7 +35,7 @@ export default function HomeSections() {
         );
 
       ScrollTrigger.matchMedia({
-        "(min-width: 768px)": () => {
+        "(min-width: 1024px)": () => {
           stickyCards.forEach((card, index) => {
             if (index < stickyCards.length - 1) {
               const nextCard = stickyCards[index + 1];
@@ -80,26 +80,26 @@ export default function HomeSections() {
   );
 
   return (
-    <div ref={containerRef} className="relative w-full overflow-x-hidden">
+    <div ref={containerRef} className="relative w-full overflow-hidden">
       {/* Hero loads immediately */}
       <section className="sticky-section min-h-screen bg-background">
         <ParallaxHero />
       </section>
 
       {/* Other sections load lazily */}
-      <section className="sticky-section min-h-screen bg-background mt-[50vh]">
+      <section className="sticky-section min-h-screen bg-background lg:mt-[50vh]">
         <Suspense fallback={<SectionLoader />}>
           <Services />
         </Suspense>
       </section>
 
-      <section className="sticky-section min-h-screen bg-card mt-[50vh]">
+      <section className="sticky-section min-h-screen bg-card lg:mt-[50vh]">
         <Suspense fallback={<SectionLoader />}>
           <TourPackages />
         </Suspense>
       </section>
 
-      <section className="sticky-section min-h-screen bg-background mt-[50vh]">
+      <section className="sticky-section min-h-screen bg-background lg:mt-[50vh]">
         <Suspense fallback={<SectionLoader />}>
           <Feedbacks />
         </Suspense>

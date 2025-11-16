@@ -20,9 +20,9 @@ const PackageCard: React.FC<PackageCardProps> = ({ subPkg }) => {
   return (
     <div
       className="
-        flex-shrink-0   w-60 md:w-72 lg:w-80 
+        flex-shrink-0 w-68 md:w-72 lg:w-80 
         packageCard rounded-2xl overflow-hidden 
-        shadow-lg bg-card hover:shadow-xl 
+        shadow-lg bg-card hover:shadow-xl h-full
         transition-all duration-300 hover:-translate-y-1
       "
     >
