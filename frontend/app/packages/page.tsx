@@ -12,8 +12,8 @@ export default function PackagesPage() {
   return (
     <main>
       <ParallaxHero
-        lightBgImage="/bg/parallaxDay2.png"
-        darkBgImage="/bg/parallaxNight2.png"
+        lightBgImage="/bg/parallaxDay2.jpg"
+        darkBgImage="/bg/parallaxNight2.jpg"
         animations={{
           bgParallaxDistance: 150, // More dramatic parallax
           staggerDelay: 0.2,
